@@ -1,13 +1,49 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
     font-family: Arial, sans-serif;
+    background-color: rgb(233, 230, 230);
 }
+.container {
+    width: 100%; /* Full width parent container */
+    overflow: hidden; /* Hide overflow */
+    position: relative;
+  }
+  
+  .image-div {
+    background-image: url('images/car-iCharge.jpg');
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    width: 100%;
+    height: 600px;
+    margin-left: 200px;
+  }
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #1e0b6f;
+    color: white;
+    text-align: center;
+    border: transparent;
+    padding: 1rem 0;
+    z-index: 1000; /* Ensures the header is on top of other elements */
+}
+
+main {
+    margin-top: 60px; /* This should be at least the height of the header */
+    padding: 1rem;
+}
+
 nav {
     background-color: transparent;
 }
 .menu {
     list-style: none;
     margin-right: 40px;
-    margin-top: 40px;
+    margin-top: 10px;
     padding: 0;
     display: flex;
 }
@@ -174,7 +210,7 @@ nav {
         .button-container1 {
             display: flex;
             gap: 10px; 
-            margin-top: 40px;
+            margin-top: 10px;
             margin-right: 20px;
 
         }
@@ -353,3 +389,188 @@ footer {
 .partner-button:hover {
     background-color: #0056b3;
 }
+.learn{
+    background-color: blue;
+    border-radius: 50px;
+    width: 10%;
+    height: 40px;
+    box-shadow: none;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-left: 320px;
+    
+
+}
+
+.learn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgba(3, 57, 114, 0.1);;
+    transition: lef
+}
+.learn:hover{
+    left: 0;
+}
+
+.dropdown1 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    list-style: none;
+    margin-right: 120px;
+    padding: 0;
+    z-index: 1000;
+    width: 800px;
+    border-radius: 15px;
+}
+
+.dropdown1 li a {
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown1 li a:hover {
+    background-color: #ddd;
+}
+
+.menu-item:hover .dropdown1 {
+    display: block;
+}
+.dropdown-column1 {
+    flex: 1;
+    display: flex;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.dropdown-column1 h3 {
+    margin-top: 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.dropdown-column1 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown-column1 ul li {
+    margin: 5px 0;
+}
+
+.dropdown-column1 ul li a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+.dropdown-column1 ul li a:hover {
+    background-color: #eee;
+}
+
+.Explore1{
+    background-color:transparent;
+    border: 2px solid #007bff;
+    ; 
+    border-radius: 50px;
+    width: 25%;
+    height: 60px;
+    box-shadow: none;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-left: 520px;
+    font-size: 20px;
+    color: #007bff;
+    cursor: pointer;
+    outline: none;
+    position: relative; 
+    overflow: hidden; 
+    transition: color 0.5s; 
+         z-index: 0;
+}
+
+/* Gradient overlay for hover effect */
+.Explore1::before {
+    content: "";
+    position: relative;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, transparent, blue); /* Gradient from left to right */
+    transition: left 0.5s;
+  }
+
+
+  .Explore1:hover::before {
+    left: 0; 
+  }
+
+  .Explore1:hover {
+    color: white;
+    background-color: blue; 
+  }
+
+  .card {
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin-left: 70px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    height: 850px;
+    background-color: white;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-header {
+    padding: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+  }
+
+  .card-content {
+    padding: 2px;
+    font-size: 16px;
+  }
+
+  .card-button {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+
+  .card-button:hover {
+    background-color: #0056b3;
+  }
+
+ 
