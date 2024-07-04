@@ -5,7 +5,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: rgb(233, 230, 230);
 }
-.container {
+.container1 {
     width: 100%; /* Full width parent container */
     overflow: hidden; /* Hide overflow */
     position: relative;
@@ -276,7 +276,7 @@ nav {
 
   
 footer {
-    background-color: #1a2b3c;
+    background-image: url('images/background.jpg');background-repeat: no-repeat;height:600px;background-size: 110%;
     color: #fff;
     padding: 20px 0;
 }
@@ -324,7 +324,7 @@ footer {
     align-items: center;
     flex-wrap: wrap;
     padding: 10px;
-    border-top: 1px solid #444;
+    border-top: 1px solid #4212d1;
 }
 
 .contact-info, .social-media, .copyright, .quote {
@@ -353,12 +353,12 @@ footer {
 }
 
 .quote-button:hover {
-    background-color: white;
+    background-color: transparent;
     color: white;
 }
 
 .footer-links {
-    background-color: #16222b;
+    background-color: #302f31;
     padding: 20px 0;
 }
 
@@ -663,7 +663,7 @@ form {
 
 form button {
     padding: 15px;
-    background-color: #007bff;
+    background-color: navy;
     color: #ffffff;
     border: none;
     border-radius: 5px;
