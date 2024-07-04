@@ -574,3 +574,105 @@ footer {
   }
 
  
+  /* --------------------------------------------- */
+  .breadcrumb {
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 4px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.breadcrumb a {
+    color: gray;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb a + a::before {
+    content: ">";
+    margin: 0 5px;
+    color: #666;
+}
+
+/* styles.css */
+.container {
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto; /* Centering the container and adding margin */
+}
+
+.text-container {
+    flex: 1;
+    background-color: #e9f0f8;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%; /* Spanning full width */
+    margin-right: 20px; /* Adjusted margin */
+}
+
+.text-container h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px; /* Increased margin */
+}
+
+.form-container {
+    flex: 1;
+    padding: 50px;
+    background-color: #ffffff;
+    width: 100%; /* Spanning full width */
+    margin-left: 20px; /* Adjusted margin */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px; /* Increased spacing between form groups */
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%; /* Spanning full width */
+}
+
+form button {
+    padding: 15px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Spanning full width */
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
