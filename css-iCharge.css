@@ -680,7 +680,7 @@ form button:hover {
 /* ____________________________________________ */
 .faqs-container {
     font-family: "Roboto", sans-serif;
-    max-width: 700px;
+    max-width: 900px;
     margin: 0 auto;
   }
   
@@ -695,11 +695,12 @@ form button:hover {
   
   .faqs-container .faq-header {
     display: flex;
-    background: #03071e;
-    color: #f1faee;
+    background: transparent;
+    color: black;
     align-items: center;
     position: relative;
     cursor: pointer;
+    margin-bottom: 40px;
   }
   
   .faqs-container .faq-header .open,
