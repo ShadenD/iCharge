@@ -886,3 +886,54 @@ form button:hover {
     width: 100%;
     border-radius: 20px;
 }
+
+
+/* _______________________________________________________________________________ */
+.container6 {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding: 20px;
+    background-color: #001f3f; 
+    border-radius: 10px;
+}
+
+.images6 {
+    display: flex;
+    gap: 20px;
+
+}
+
+.images6 .img11  img{
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    margin-top: 200px;
+    
+}
+.images6 .img22 img{
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.text6 {
+    max-width: 400px;
+}
+
+.text6 h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.text6 p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: white;
+
+    
+
+}
