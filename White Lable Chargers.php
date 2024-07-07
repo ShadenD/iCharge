@@ -1,3 +1,7 @@
+
+<?php session_start(); ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -341,26 +345,26 @@
         <div class="form-container">
             <form action="send_email.php" method="post">
                 <div class="form-group">
-                    <input type="text" placeholder="First Name*" required>
-                    <input type="text" placeholder="Last Name*" required>
+                    <input type="text" placeholder="First Name*" name="First Name" required>
+                    <input type="text" placeholder="Last Name*" name="Last Name" required>
                 </div>
                 <div class="form-group">
-                    <select required>
+                    <select name="country" >
                         <option value="" disabled selected>Country*</option>
                         <!-- Add country options here -->
                     </select>
                 </div>
                 <div class="form-group">
-                    <input type="email" placeholder="Email*" required>
-                    <input type="tel" placeholder="Phone*" required>
+                    <input type="email" placeholder="Email*" name="email" required>
+                    <input type="tel" placeholder="Phone*" name="phone" required>
                 </div>
                 <div class="form-group">
-                    <input type="text" placeholder="WhatsApp">
+                    <input type="text" placeholder="WhatsApp" name="WhatsApp">
                 </div>
                 <div class="form-group">
-                    <textarea placeholder="Enter Your Message*" required></textarea>
+                    <textarea placeholder="Enter Your Message*" name="message" required></textarea>
                 </div>
-                <button type="submit">Send Message</button>
+                <button type="submit" name="submit">Send Message</button>
             </form>
         </div>
     </div>
@@ -449,5 +453,17 @@
         </div>
     </footer>
     <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        var messageText="<?= $_SESSION['status']?? ''; ?>";
+        if(messageText!=''){
+        Swal.fire({
+            title: "Thank You!",
+            text: messageText,
+            icon: "success"
+            });
+        }
+    </script>
 </body>
 </html>
