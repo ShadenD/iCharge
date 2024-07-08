@@ -95,11 +95,14 @@
     </header>
     <div style="background-image: url('images/background.jpg');background-repeat: no-repeat;height:800px;background-size: 110%;margin-top: 80px;width: 110%;">
         <br> <br> <br> <br> <br> 
-        <h1 style="color: white; font-size: 50px; font-weight: bold; margin-left: 90px; margin-top: 40px;">Electrly: comprehensive EV<br> Charging Station Solution<br> Provider </h1>
-     <div><p style="color: white; font-size: 21px;margin-left: 80px; margin-top: 100px;">Electrly offers a wide range of intelligent and fast charging solutions that can fit into<br> various residential, commercial, and industrial settings.</p></div>
-     <div class="button-container">
-      <a href="#footer"><button class="btn btn-primary">View Our Products</button></a>
-        <button class="btn btn-outline">Contact an Expert</button>
+  <center>
+    <img src="images/automaker_3_85f50bb18b.png" style="width:50px;height:60px;margin-right:150px">
+    <br><br><br><br>
+    <h1 style="font-size:50px;font-weight: bold;color:white;margin-right:150px;">EV Charging for Automakers</h1>
+    <div class="button-container">
+      <a href="#footer"><button class="btn btn-primary">Contact an Expert</button></a>
+    </div>
+  </center>
     </div>
     </div>
      <!-- logo and row div -->
