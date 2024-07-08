@@ -1527,3 +1527,222 @@ form button:hover {
   #myBtn:hover {
     background-color: #555;
   }
+
+
+  /* _______________________________________________________________________________________ */
+  .benefit-section21 {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.benefit-section21 h1 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #001f3f;
+}
+
+.benefit-cards21 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.benefit-card21 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    flex: 1;
+    min-width: 250px;
+    max-width: 350px;
+}
+
+.benefit-card21 h2 {
+    font-size: 1.25rem;
+    color: #001f3f;
+    margin-bottom: 20px;
+}
+
+.benefit-card21 p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* _________________________________________________________________________________________ */
+
+
+.recommended-products66 {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e9f5ff;
+}
+
+.recommended-products66 h1 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #001f3f;
+}
+
+.product-card66 {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.product-card66 img {
+    max-width: 200px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.product-info66 {
+    text-align: left;
+}
+
+.product-info66 h2 {
+    font-size: 1.5rem;
+    color: #001f3f;
+    margin-bottom: 10px;
+}
+
+.product-info66 p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.product-info66 ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.product-info66 ul li {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-info66 button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-info66 button:hover {
+    background-color: #0056b3;
+}
+
+/* _________________________________________________________________________ */
+.container45 {
+    display: flex;
+    justify-content: space-between;
+    background-color: navy;
+    align-items: center;
+    padding: 50px;
+    height: 400px;
+}
+.text-section45 {
+    max-width: 50%;
+}
+.text-section45 h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: white;
+}
+.text-section45 p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: white;
+}
+.text-section45 .btn45 {
+    background-color: #007BFF;
+    color: #FFFFFF;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+.image-section45 {
+width: 150px;
+    text-align: center;
+}
+.image-section45 img {
+    width: 100%;
+    height: 400px;
+
+}
+
+/* _____________________________________________________________________________________ */
+
+.container121 {
+    text-align: center;
+    padding: 50px;
+}
+.container121 h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #0A1931;
+}
+.tabs121 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.tab121 {
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #6C757D;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+.tab121.active {
+    color: #0A1931;
+    border-bottom: 2px solid #007BFF;
+    font-weight: bold;
+}
+.cards121 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card121 {
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    background-color: #F8F9FA;
+    transition: box-shadow 0.3s ease;
+}
+.card121:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card121 img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.card121 h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}

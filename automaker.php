@@ -93,229 +93,236 @@
         <!-- div for categories -->
     </div>
     </header>
-    <div style="background-image: url('images/background.jpg');background-repeat: no-repeat;height:800px;background-size: 110%;margin-top: 80px;width: 110%;">
+    <div style="background-image: url('images/background.jpg');background-repeat: no-repeat;height:500px;background-size: 110%;margin-top: 80px;width: 110%;">
         <br> <br> <br> <br> <br> 
   <center>
     <img src="images/automaker_3_85f50bb18b.png" style="width:50px;height:60px;margin-right:150px">
     <br><br><br><br>
     <h1 style="font-size:50px;font-weight: bold;color:white;margin-right:150px;">EV Charging for Automakers</h1>
-    <div class="button-container">
+    <br> <br> <br>
+    <div style="margin-right:150px;">
       <a href="#footer"><button class="btn btn-primary">Contact an Expert</button></a>
     </div>
   </center>
     </div>
     </div>
-     <!-- logo and row div -->
-     <div style="margin-top: 70px;"><center><h1 style="font-weight: bold;font-size: 40px;color: black;">Supercharge Your Business</h1></center></div>
-     <div><center><h1 style="font-weight: bold;font-size: 30px;color: navy;">With Electrly's EV Chargers</h1></center></div>
-       <br>  <br>  <br>  <br>
-       <div class="container1">
-        <div class="image-div">
-            <br><br><br><br><br><br>
-            <div style="margin-left: 280px;color: white;font-size: 18px;" ><h1 >DC Fast Chargers</h1></div>
-            <div style="margin-left: 280px;color: white;font-size: 14px;" ><p >Our DC fast charging products are designed to provide drivers<br> with maximum charging speed with guaranteed safety</p></div>
-            <button class="learn">Learn More</button>
+    <br><br><br><br>
+    <br><br><br><br>
+    <center>
+    <div style="display:flex; width:100%;height:auto;">
+        <div style="width: 50%;margin-top:120px;margin-left:120px">
+        <h1 style="font-size:35px;color:black;font-weight: bold;text-align: left;">Increase EV Sales Easily With Our<br> Easy-To-Use Chargers</h1>
+        <p style="color:grey;text-align: left;">As EVs rapidly sweep the automotive industry, in addition to<br> manufacturing EVs, automakers also need to provide efficient and hassle-<br>free charging experiences for their customers. Here at Electrly, we offer<br> charging solutions from design to manufacturing, helping automakers<br> attract new clients, increase EV sales, and extend their business to chargers.</p>
         </div>
-      </div> 
-        <<button class="Explore1">Explore More Options Charging</button>
-        <br>  <br>  <br>  <br> <br>  <br>  <br>  <br>
-
-        <div >
-          <center>  <h1 style="font-size: 50px;font-weight: bold;">Explore Electrly's EV Chargers</h1></center>
-            <br>  <br>
-        <div style="width: 100%;">
-            <video width="100%" autoplay muted>
-                <source src="iCharge-video.mp4" type="video/mp4">
-                <source src="iCharge-video.ogg" type="video/ogg">
-                <div class="video-overlay"><h1>Your Text Here</h1></div>
-              </video>
-        </div>
-        <br>  <br>
-        <center>  <h1 id="EV Chargers" style="font-size: 50px;font-weight: bold;">EV Chargers for Commercial Uses</h1></center>
-        <br>  <br>
-        <div style="display: flex;">
-        <div class="card">
-            <div class="card-header"><img src="images/1.png" alt="Card Image"></div>
-            <div class="card-header">
-                <h1 style="font-size: 16px;">VoltPlug - A1</h1>
-                <div style="display: flex; margin-bottom: 10px;"><button style="    border: 2px solid grey;color: grey; margin-right: 10px;">2 * 7kW / 2 * 22kW</button>
-                <div style="display: flex;"><button style="    border: 2px solid #007bff;color:#007bff ;">Level2</button>
-                </div>
-
-                </div>
-                <div style="display: flex;"><button style="border: 2px solid #007bff;color:#007bff ;">Business Charger</button></div>
-            </div>
-            <div class="card-content">
-            <div style="display: flex;">
-                <i class="fa fa-check" style="margin-top: 15px;margin-right: 10px; color: blue;"></i>
-                <p style="font-size: 14px;color: rgb(113, 111, 111);font-weight: bold;">Maximum power output of 22 kW.</p></div>
-            </div>
-            <div class="card-content">
-                <div style="display: flex;">
-                    <i class="fa fa-check" style="margin-top: 15px;margin-right: 10px; color: blue;"></i>
-                    <p style="font-size: 14px;color: rgb(113, 111, 111);font-weight: bold;">Dual output socket.</p></div>
-                </div>
-                <div class="card-content">
-                    <div style="display: flex;">
-                        <i class="fa fa-check" style="margin-top: 15px;margin-right: 10px; color: blue;"></i>
-                        <p style="font-size: 14px;color: rgb(113, 111, 111);font-weight: bold;">RFID/plug & play operation.</p></div>
-                    </div>
-                    <div class="card-content">
-                        <div style="display: flex;">
-                            <i class="fa fa-check" style="margin-top: 15px;margin-right: 10px; color: blue;"></i>
-                            <p style="font-size: 14px;color: rgb(113, 111, 111);font-weight: bold;">MID-certified energy meter.</p></div>
-                        </div>
-                        <div class="card-content">
-                            <div style="display: flex;">
-                                <i class="fa fa-check" style="margin-top: 15px;margin-right: 10px; color: blue;"></i>
-                                <p style="font-size: 14px;color: rgb(113, 111, 111);font-weight: bold;">Beautifully designe.</p></div>
-                            </div>
-                            <div class="card-content">
-                                <div style="display: flex;">
-                                    <i class="fa fa-check" style="margin-top: 15px;margin-right: 10px; color: blue;"></i>
-                                    <p style="font-size: 14px;color: rgb(113, 111, 111);font-weight: bold;">Ethernet, 4G, and Wi-Fi communication.</p></div>
-                                </div>
-    
-            <a href="#" class="card-button">Contact Our Expert</a>
-          </div>
-          <div class="card">
-            <div class="card-header"><img src="images/2.png" alt="Card Image"></div>
-            <div class="card-header">
-                <h1 style="font-size: 16px;">VoltPlug - A2</h1>
-                <div style="display: flex; margin-bottom: 10px;"><button style="    border: 2px solid grey;color: grey; margin-right: 10px;">2 * 7kW / 2 * 11kW / 2 * 22kW</button>
-                <div style="display: flex;"><button style="    border: 2px solid #007bff;color:#007bff ;">Level2</button>
-                </div>
-
-                </div>
-                <div style="display: flex;"><button style="border: 2px solid #007bff;color:#007bff ;">Business Charger</button></div>
-            </div>
-            <div class="card-content">
-                <div style="display: flex;">
-                    <i class="fa fa-check" style="margin-top: 15px;margin-right: 10px; color: blue;"></i>
-                    <p style="font-size: 14px;color: rgb(113, 111, 111);font-weight: bold;">Max power of 22 kW with two sockets.<p></div>
-                </div>
-                <div class="card-content">
-                    <div style="display: flex;">
-                        <i class="fa fa-check" style="margin-top: 15px;margin-right: 10px; color: blue;"></i>
-                        <p style="font-size: 14px;color: rgb(113, 111, 111);font-weight: bold;">Type 1 or Type 2 cables.</p></div>
-                    </div>
-                    <div class="card-content">
-                        <div style="display: flex;">
-                            <i class="fa fa-check" style="margin-top: 15px;margin-right: 10px; color: blue;"></i>
-                            <p style="font-size: 14px;color: rgb(113, 111, 111);font-weight: bold;">Suitable for business applications.</p></div>
-                        </div>
-                        <div class="card-content">
-                            <div style="display: flex;">
-                                <i class="fa fa-check" style="margin-top: 15px;margin-right: 10px; color: blue;"></i>
-                                <p style="font-size: 14px;color: rgb(113, 111, 111);font-weight: bold;"> IP65 rating for waterproof and dust protection.</p></div>
-                            </div>
-                            <div class="card-content">
-                                <div style="display: flex;">
-                                    <i class="fa fa-check" style="margin-top: 15px;margin-right: 10px; color: blue;"></i>
-                                    <p style="font-size: 14px;color: rgb(113, 111, 111);font-weight: bold;">Ethernet, 4G, and Wi-Fi communication.</p></div>
-                                </div>
-                                <div class="card-content">
-                                    <div style="display: flex;">
-                                        <i class="fa fa-check" style="margin-top: 15px;margin-right: 10px; color: blue;"></i>
-                                        <p style="font-size: 14px;color: rgb(113, 111, 111);font-weight: bold;">MID-certified energy meter.</p></div>
-                                    </div>
-    
-            <a href="#" class="card-button">Contact Our Expert</a>
-          </div>
-          <div class="card">
-            <div class="card-header"><img src="images/3.png" alt="Card Image" style="height: 330px;"></div>
-            <div class="card-header">
-                <h1 style="font-size: 16px;">VoltPlug - A1</h1>
-                <div style="display: flex; margin-bottom: 10px;"><button style="    border: 2px solid grey;color: grey; margin-right: 10px;">2 * 7kW / 2 * 22kW</button>
-                <div style="display: flex;"><button style="    border: 2px solid #007bff;color:#007bff ;">Level2</button>
-                </div>
-
-                </div>
-                <div style="display: flex;"><button style="border: 2px solid #007bff;color:#007bff ;">Business Charger</button></div>
-            </div>
-            <div class="card-content">
-                <div style="display: flex;">
-                    <i class="fa fa-check" style="margin-top: 15px;margin-right: 10px; color: blue;"></i>
-                    <p style="font-size: 14px;color: rgb(113, 111, 111);font-weight: bold;">Maximum power output of 22 kW.</p></div>
-                </div>
-                <div class="card-content">
-                    <div style="display: flex;">
-                        <i class="fa fa-check" style="margin-top: 15px;margin-right: 10px; color: blue;"></i>
-                        <p style="font-size: 14px;color: rgb(113, 111, 111);font-weight: bold;">Dual output socket.</p></div>
-                    </div>
-                    <div class="card-content">
-                        <div style="display: flex;">
-                            <i class="fa fa-check" style="margin-top: 15px;margin-right: 10px; color: blue;"></i>
-                            <p style="font-size: 14px;color: rgb(113, 111, 111);font-weight: bold;">RFID/plug & play operation.</p></div>
-                        </div>
-                        <div class="card-content">
-                            <div style="display: flex;">
-                                <i class="fa fa-check" style="margin-top: 15px;margin-right: 10px; color: blue;"></i>
-                                <p style="font-size: 14px;color: rgb(113, 111, 111);font-weight: bold;">MID-certified energy meter.</p></div>
-                            </div>
-                            <div class="card-content">
-                                <div style="display: flex;">
-                                    <i class="fa fa-check" style="margin-top: 15px;margin-right: 10px; color: blue;"></i>
-                                    <p style="font-size: 14px;color: rgb(113, 111, 111);font-weight: bold;">Beautifully designe.</p></div>
-                                </div>
-                                <div class="card-content">
-                                    <div style="display: flex;">
-                                        <i class="fa fa-check" style="margin-top: 15px;margin-right: 10px; color: blue;"></i>
-                                        <p style="font-size: 14px;color: rgb(113, 111, 111);font-weight: bold;">Ethernet, 4G, and Wi-Fi communication.</p></div>
-                                    </div>
-    
-            <a href="#" class="card-button">Contact Our Expert</a>
-          </div>
-        </div>
-<br><br><br><br>
-<div style="display: flex;">
-     <div class="card">
-    <div class="card-header"><img src="images/2.png" alt="Card Image"></div>
-    <div class="card-header">
-        <h1 style="font-size: 16px;">VoltPlug - A2</h1>
-        <div style="display: flex; margin-bottom: 10px;"><button style="    border: 2px solid grey;color: grey; margin-right: 10px;">2 * 7kW / 2 * 11kW / 2 * 22kW</button>
-        <div style="display: flex;"><button style="    border: 2px solid #007bff;color:#007bff ;">Level2</button>
-        </div>
-
-        </div>
-        <div style="display: flex;"><button style="border: 2px solid #007bff;color:#007bff ;">Business Charger</button></div>
+        <img src="images/automaker_2_c931323fd822.png">
     </div>
-    <div class="card-content">
-        <div style="display: flex;">
-            <i class="fa fa-check" style="margin-top: 15px;margin-right: 10px; color: blue;"></i>
-            <p style="font-size: 14px;color: rgb(113, 111, 111);font-weight: bold;">Max power of 22 kW with two sockets.<p></div>
-        </div>
-        <div class="card-content">
-            <div style="display: flex;">
-                <i class="fa fa-check" style="margin-top: 15px;margin-right: 10px; color: blue;"></i>
-                <p style="font-size: 14px;color: rgb(113, 111, 111);font-weight: bold;">Type 1 or Type 2 cables.</p></div>
+    </center>
+
+    <br><br><br><br>
+    <br><br><br><br>
+    <section class="benefit-section21">
+        <h1>Win-Win: How We Benefit Both Your Business and Your Customers</h1>
+        <div class="benefit-cards21">
+            <div class="benefit-card21">
+                <h2>Increase Your EV Sales Without Hassles</h2>
+                <p>We provide OEM service, and working with us allows you to offer your EV customers a comprehensive solution of supporting EV chargers along with your EVs, making it easier to sell your cars.</p>
             </div>
-            <div class="card-content">
-                <div style="display: flex;">
-                    <i class="fa fa-check" style="margin-top: 15px;margin-right: 10px; color: blue;"></i>
-                    <p style="font-size: 14px;color: rgb(113, 111, 111);font-weight: bold;">Suitable for business applications.</p></div>
-                </div>
-                <div class="card-content">
-                    <div style="display: flex;">
-                        <i class="fa fa-check" style="margin-top: 15px;margin-right: 10px; color: blue;"></i>
-                        <p style="font-size: 14px;color: rgb(113, 111, 111);font-weight: bold;"> IP65 rating for waterproof and dust protection.</p></div>
-                    </div>
-                    <div class="card-content">
-                        <div style="display: flex;">
-                            <i class="fa fa-check" style="margin-top: 15px;margin-right: 10px; color: blue;"></i>
-                            <p style="font-size: 14px;color: rgb(113, 111, 111);font-weight: bold;">Ethernet, 4G, and Wi-Fi communication.</p></div>
-                        </div>
-                        <div class="card-content">
-                            <div style="display: flex;">
-                                <i class="fa fa-check" style="margin-top: 15px;margin-right: 10px; color: blue;"></i>
-                                <p style="font-size: 14px;color: rgb(113, 111, 111);font-weight: bold;">MID-certified energy meter.</p></div>
-                            </div>
-
-    <a href="#" class="card-button">Contact Our Expert</a>
-  </div>
-</div>
-
+            <div class="benefit-card21">
+                <h2>Help You Extend Your Business to Charging Network</h2>
+                <p>Electrly's chargers enable you to build charging stations under your brand more easily. With our expertise in manufacturing, we can tailor the products to your specifications and requirements, so you can focus more on marketing and sales.</p>
+            </div>
+            <div class="benefit-card21">
+                <h2>Offer Clients a Friendly Charging Experience</h2>
+                <p>Our chargers have been designed with the user in mind to provide a convenient charging experience. They are compatible with all plug-in vehicles, easy to operate, and supported by a mobile app.</p>
+            </div>
         </div>
+    </section>
+    
+    <br><br><br><br>
+    <br><br><br><br>
+    <section class="recommended-products66">
+        <h1>Recommended Products</h1>
+        <div class="product-card66">
+            <img src="images/Electri_Charge_A23_f2db4fe57e.jpg" alt="Electri Charge - A23">
+            <div class="product-info66">
+                <h2>Electri Charge - A23</h2>
+                <p>Explore Electri Charge - A23, a level 2 EV charger with smart control and maximum safety protection. With an output of up to 22 kW, it is the ideal EV charger for residential and commercial use.</p>
+                <ul style="display:flex;gap:90px">
+                    <div>
+                    <div style="display:flex">
+                        <img src="https://img.freepik.com/premium-vector/check-mark-round-blue-icon-3d-cartoon-minimal-style-vector-illustration_275806-1799.jpg" style="width:20px;height:20px">
+                        <li>Max Charging Rate up to 22kW</li>
+                    </div>
+                    <div style="display:flex">
+                        <img src="https://img.freepik.com/premium-vector/check-mark-round-blue-icon-3d-cartoon-minimal-style-vector-illustration_275806-1799.jpg" style="width:20px;height:20px">
+                        <li>Max Charging Rate up to 22kW</li>
+                    </div>
+                    <div style="display:flex">
+                        <img src="https://img.freepik.com/premium-vector/check-mark-round-blue-icon-3d-cartoon-minimal-style-vector-illustration_275806-1799.jpg" style="width:20px;height:20px">
+                        <li>Max Charging Rate up to 22kW</li>
+                    </div>
+                    </div>
+                    <div>
+                    <div style="display:flex">
+                        <img src="https://img.freepik.com/premium-vector/check-mark-round-blue-icon-3d-cartoon-minimal-style-vector-illustration_275806-1799.jpg" style="width:20px;height:20px">
+                        <li>Max Charging Rate up to 22kW</li>
+                    </div>
+                    <div style="display:flex">
+                        <img src="https://img.freepik.com/premium-vector/check-mark-round-blue-icon-3d-cartoon-minimal-style-vector-illustration_275806-1799.jpg" style="width:20px;height:20px">
+                        <li>Max Charging Rate up to 22kW</li>
+                    </div>
+                    <div style="display:flex">
+                        <img src="https://img.freepik.com/premium-vector/check-mark-round-blue-icon-3d-cartoon-minimal-style-vector-illustration_275806-1799.jpg" style="width:20px;height:20px">
+                        <li>Max Charging Rate up to 22kW</li>
+                    </div>
+                    </div>
+                </ul>
+                <button>Contact an Expert</button>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="product-card66">
+            <img src="images/Electri_Charge.jpg" alt="Electri Charge - A23">
+            <div class="product-info66">
+                <h2>Electri Charge - A19</h2>
+                <p>Explore Electri Charge - A23, a level 2 EV charger with smart control and maximum safety protection. With an output of up to 22 kW, it is the ideal EV charger for residential and commercial use.</p>
+                <ul style="display:flex;gap:90px">
+                    <div>
+                    <div style="display:flex">
+                        <img src="https://img.freepik.com/premium-vector/check-mark-round-blue-icon-3d-cartoon-minimal-style-vector-illustration_275806-1799.jpg" style="width:20px;height:20px">
+                        <li>Max Charging Rate up to 22kW</li>
+                    </div>
+                    <div style="display:flex">
+                        <img src="https://img.freepik.com/premium-vector/check-mark-round-blue-icon-3d-cartoon-minimal-style-vector-illustration_275806-1799.jpg" style="width:20px;height:20px">
+                        <li>Max Charging Rate up to 22kW</li>
+                    </div>
+                    <div style="display:flex">
+                        <img src="https://img.freepik.com/premium-vector/check-mark-round-blue-icon-3d-cartoon-minimal-style-vector-illustration_275806-1799.jpg" style="width:20px;height:20px">
+                        <li>Max Charging Rate up to 22kW</li>
+                    </div>
+                    </div>
+                    <div>
+                    <div style="display:flex">
+                        <img src="https://img.freepik.com/premium-vector/check-mark-round-blue-icon-3d-cartoon-minimal-style-vector-illustration_275806-1799.jpg" style="width:20px;height:20px">
+                        <li>Max Charging Rate up to 22kW</li>
+                    </div>
+                    <div style="display:flex">
+                        <img src="https://img.freepik.com/premium-vector/check-mark-round-blue-icon-3d-cartoon-minimal-style-vector-illustration_275806-1799.jpg" style="width:20px;height:20px">
+                        <li>Max Charging Rate up to 22kW</li>
+                    </div>
+                    <div style="display:flex">
+                        <img src="https://img.freepik.com/premium-vector/check-mark-round-blue-icon-3d-cartoon-minimal-style-vector-illustration_275806-1799.jpg" style="width:20px;height:20px">
+                        <li>Max Charging Rate up to 22kW</li>
+                    </div>
+                    </div>
+                </ul>
+                <button>Contact an Expert</button>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="product-card66">
+            <img src="images/Electri_Charge23.jpg" alt="Electri Charge - A23">
+            <div class="product-info66">
+                <h2>Electri Charge - A19</h2>
+                <p>Explore Electri Charge - A23, a level 2 EV charger with smart control and maximum safety protection. With an output of up to 22 kW, it is the ideal EV charger for residential and commercial use.</p>
+                <ul style="display:flex;gap:90px">
+                    <div>
+                    <div style="display:flex">
+                        <img src="https://img.freepik.com/premium-vector/check-mark-round-blue-icon-3d-cartoon-minimal-style-vector-illustration_275806-1799.jpg" style="width:20px;height:20px">
+                        <li>Max Charging Rate up to 22kW</li>
+                    </div>
+                    <div style="display:flex">
+                        <img src="https://img.freepik.com/premium-vector/check-mark-round-blue-icon-3d-cartoon-minimal-style-vector-illustration_275806-1799.jpg" style="width:20px;height:20px">
+                        <li>Max Charging Rate up to 22kW</li>
+                    </div>
+                    <div style="display:flex">
+                        <img src="https://img.freepik.com/premium-vector/check-mark-round-blue-icon-3d-cartoon-minimal-style-vector-illustration_275806-1799.jpg" style="width:20px;height:20px">
+                        <li>Max Charging Rate up to 22kW</li>
+                    </div>
+                    </div>
+                    <div>
+                    <div style="display:flex">
+                        <img src="https://img.freepik.com/premium-vector/check-mark-round-blue-icon-3d-cartoon-minimal-style-vector-illustration_275806-1799.jpg" style="width:20px;height:20px">
+                        <li>Max Charging Rate up to 22kW</li>
+                    </div>
+                    <div style="display:flex">
+                        <img src="https://img.freepik.com/premium-vector/check-mark-round-blue-icon-3d-cartoon-minimal-style-vector-illustration_275806-1799.jpg" style="width:20px;height:20px">
+                        <li>Max Charging Rate up to 22kW</li>
+                    </div>
+                    <div style="display:flex">
+                        <img src="https://img.freepik.com/premium-vector/check-mark-round-blue-icon-3d-cartoon-minimal-style-vector-illustration_275806-1799.jpg" style="width:20px;height:20px">
+                        <li>Max Charging Rate up to 22kW</li>
+                    </div>
+                    </div>
+                </ul>
+                <button>Contact an Expert</button>
+            </div>
+        </div>
+    </section>
+
+    <br><br><br><br>
+    <br><br><br><br>
+    <div class="container121">
+        <h1>Explore Our Other EV Charging Solutions</h1>
+        <div class="tabs121">
+            <div class="tab121 active" id="vehicleTab" onclick="showVehicleType()">Vehicle Type</div>
+            <div class="tab121" id="industryTab" onclick="showIndustry()">Industry</div>
+        </div>
+        <div id="vehicle-type-cards" class="cards121">
+            <div class="card121">
+                <img src="https://via.placeholder.com/50?text=E-Bus" alt="E-Bus">
+                <h3>E-Bus</h3>
+            </div>
+            <div class="card121">
+                <img src="https://via.placeholder.com/50?text=E-Truck" alt="E-Truck">
+                <h3>E-Truck</h3>
+            </div>
+            <div class="card121">
+                <img src="https://via.placeholder.com/50?text=Car+Light+Vehicles" alt="Car & Light Vehicles">
+                <h3>Car & Light Vehicles</h3>
+            </div>
+        </div>
+        <div id="industry-cards" class="cards121" style="display: none;">
+            <div class="card121">
+                <img src="https://via.placeholder.com/50?text=Retail" alt="Retail">
+                <h3>Retail</h3>
+            </div>
+            <div class="card121">
+                <img src="https://via.placeholder.com/50?text=Hospitality" alt="Hospitality">
+                <h3>Hospitality</h3>
+            </div>
+            <div class="card121">
+                <img src="https://via.placeholder.com/50?text=Workplace" alt="Workplace">
+                <h3>Workplace</h3>
+            </div>
+        </div>
+    </div>
+    <script>
+        function showVehicleType() {
+            document.getElementById('vehicle-type-cards').style.display = 'flex';
+            document.getElementById('industry-cards').style.display = 'none';
+            setActiveTab('vehicleTab');
+        }
+
+        function showIndustry() {
+            document.getElementById('vehicle-type-cards').style.display = 'none';
+            document.getElementById('industry-cards').style.display = 'flex';
+            setActiveTab('industryTab');
+        }
+
+        function setActiveTab(activeTabId) {
+            var tabs = document.getElementsByClassName('tab121');
+            for (var i = 0; i < tabs.length; i++) {
+                if (tabs[i].id === activeTabId) {
+                    tabs[i].classList.add('active');
+                } else {
+                    tabs[i].classList.remove('active');
+                }
+            }
+        }
+    </script>
+
+        
         <br>   <br>   <br>   <br>   <br>   <br>   <br>   <br>
         <!-- ____________________________________________________________________________________ -->
          <center><div style="background-color: white;border-radius: 30px;width: 80%;height: 600px;"><br>
