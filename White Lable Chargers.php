@@ -9,7 +9,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css-iCharge.css">
-    <script src="script.js">
+    <script src="script.js">    </script>
+
+        <script>
+         function falt(){
+    document.addEventListener('DOMContentLoaded', (event) => {
+    const form = document.getElementById('contactForm');
+
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();  // Prevent the default form submission
+
+        // Display an alert
+        alert('Your message has been sent successfully!');
+
+        // Optionally, you can reset the form after submission
+        form.reset();
+    });
+});
+         }
     </script>
 
 
@@ -102,8 +119,8 @@
     </header>
     <div style="background-image: url('images/background.jpg');background-repeat: no-repeat;height:500px;background-size: 110%;margin-top: 80px;width: 110%;">
         <nav class="breadcrumb">
-            <a href="homeICharge.html">Home</a> &gt; 
-            <a href="homeICharge.html ">Explore Electrly's EV Chargers</a>
+            <a href="homeICharge.php">Home</a> &gt; 
+            <a href="homeICharge.php ">Explore Electrly's EV Chargers</a>
             <a style="text-decoration: none;">White Lable Chargers</a>
         </nav> 
         <center>
@@ -345,8 +362,8 @@
         <div class="form-container">
             <form action="send_email.php" method="post">
                 <div class="form-group">
-                    <input type="text" placeholder="First Name*" name="First Name" required>
-                    <input type="text" placeholder="Last Name*" name="Last Name" required>
+                    <input type="text" placeholder="First Name*" name="FirstName" required>
+                    <input type="text" placeholder="Last Name*" name="LastName" required>
                 </div>
                 <div class="form-group">
                     <select name="country" >
@@ -364,7 +381,9 @@
                 <div class="form-group">
                     <textarea placeholder="Enter Your Message*" name="message" required></textarea>
                 </div>
-                <button type="submit" name="submit">Send Message</button>
+                <button type="submit" name="submit" onclick="falt()">Send Message</button>
+                            <!-- <h4><?php echo $alert; ?></h4> -->
+
             </form>
         </div>
     </div>

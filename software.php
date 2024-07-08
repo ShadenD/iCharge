@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css-iCharge.css">
     <script src="script.js">
     </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
 
 </head>
@@ -29,7 +31,7 @@
                        <li class="dropdown-column1">
                            <h3>By Industry</h3>
                            <ul>
-                               <li><a href="#">Automaker</a></li>
+                               <li><a href="automaker.php">Automaker</a></li>
                                <li><a href="#">Cities and Governments</a></li>
                                <li><a href="#">Entertainment</a></li>
                                <li><a href="#">Fuel Retailers</a></li>
@@ -70,6 +72,8 @@
                        </li>
                    </ul>
                </li>
+                       
+                     
                <li class="menu-item">Company
                    <ul class="dropdown">
                        <li><a href="#">EV Chargers</a></li>
@@ -96,10 +100,10 @@
         <!-- div for categories -->
     </div>
     </header>
-    <div style="background-image: url('images/background.jpg');background-repeat: no-repeat;height:600px;background-size: 110%;margin-top: 80px;width: 110%;">
+    <div style="background-image: url('images/background.jpg');background-repeat: no-repeat;height:550px;background-size: 110%;margin-top: 80px;width: 110%;    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);    object-fit: cover;">
         <nav class="breadcrumb">
-            <a href="homeICharge.html">Home</a> &gt; 
-            <a href="homeICharge.html ">Explore Electrly's EV Chargers</a>
+            <a href="homeICharge.php">Home</a> &gt; 
+            <a href="homeICharge.php ">Explore Electrly's EV Chargers</a>
             <a style="text-decoration: none;">White Lable Chargers</a>
         </nav> 
         <div style="display: flex;">
@@ -107,119 +111,138 @@
           <div><h1 style="color: white;font-size: 50px;font-weight: bold;margin-left: 20px;">Smart EV Charging<br> Management<br> Software (CMS)</h1></div>
           <p style="color: white;font-size: 22px;font-weight: bold;margin-left: 20px;">A detailed, yet easy-to-read dashboard giving you<br> real-time insights and control over your charging<br> networks.</p>
             </div>
-          <img src="images/software.png" style="width: 420px;height: 500px;">
+          <div style=" margin-top:10px;"><img src="images/software.png" style="width: 480px;height: 600px;"></div>
         </div>
           
     </div>
     <br> <br> <br> <br>
     <br> <br> <br> <br>
-    <center><h1 style="color: navy;">Why White Label With Electrly.</h1></center>
-    <center><p>The white label solution of <a href="homeICharge.html">Electrly</a>,can offer you chargers with custom logos and exterior design, making branded<br> charging business building easy and straightforward.</p></center>
-    <br> <br> <br> <br>
-    <div class="container2">
-        <div class="card2">
-            <img src="images/c1.png" alt="Extensive Services">
-            <h3>Extensive Services</h3>
-            <p>We can manufacture your chargers with your own brand on the products and adjust the appearance based on your own design. And our EV charger experts can help you develop a deployment plan for these chargers so you can set them up with ease.</p>
-        </div>
-        <div class="card2">
-            <img src="images/c2.png" alt="Cost-Effective">
-            <h3>Cost-Effective</h3>
-            <p>Our customization services are competitively priced and friendly for businesses that need custom chargers but on tight budgets. You also can enjoy special discounts for our white label services when you purchase our customized chargers in bulk.</p>
-        </div>
-        <div class="card2">
-            <img src="images/c3.png" alt="Available for All">
-            <h3>Available for All</h3>
-            <p>Our white label solution fits the branding requirements of businesses from startups to established enterprises. No matter what size and type of business you're, we can always develop a suitable customization plan for your charging facility.</p>
+  <center>  <div class="container9">
+        <h1>Seamlessly Manage All Aspects of Your EV Charging</h1>
+        <p><a href="homeICharge.php">Electrly</a> gives you full control over your EV charging infrastructures, simplifies the management of your charging networks into one control panel, and gives you holistic insights into drivers' charging activities. This helps you analyze usage patterns and optimize operations to drive profitability.</p>
+        <div class="image-container9">
+            <img src="images/seamlessly (1).jpg" alt="Dashboard" class="dashboard-image9">
         </div>
     </div>
+    </center>
+    <br> <br> <br> <br>
+    <br> <br> <br> <br>
+    <div class="features-container11">
+        <div class="feature11">
+            <div class="icon11"><img src="images/icon dot.png" alt="Icon 1"></div>
+            <h2>Control entire charging network</h2>
+            <p>Centrally manage numerous OCPP-compliant EV chargers at home or on the go using an internet-enabled device.</p>
+        </div>
+        <div class="feature11">
+            <div class="icon11"><img src="images/icon dot.png" alt="Icon 2"></div>
+            <h2>Monitor charging activities</h2>
+            <p>Monitor which chargers are in use and by whom. Keep track of charging sessions, meter readings, EV driver activities, occupancy status, energy usage, etc.</p>
+        </div>
+        <div class="feature11">
+            <div class="icon11"><img src="images/icon dot.png" alt="Icon 3"></div>
+            <h2>Manage users</h2>
+            <p>Set up groups for your employees, residents, or fleets and assign them the permissions for charging.</p>
+        </div>
+        <div class="feature11">
+            <div class="icon11"><img src="images/icon dot.png" alt="Icon 4"></div>
+            <h2>Set availability</h2>
+            <p>Set the availability or unavailability of every charging unit. Limit the number of chargers available for use at once or disallow access to faulty chargers.</p>
+        </div>
+        <div class="feature11">
+            <div class="icon11"><img src="images/icon dot.png" alt="Icon 5"></div>
+            <h2>Manage charger errors</h2>
+            <p>Identify inactive and malfunctioning chargers around the clock. Update firmware remotely to tackle software issues.</p>
+        </div>
+        <div class="feature11">
+            <div class="icon11"><img src="images/icon dot.png" alt="Icon 6"></div>
+            <h2>Alerts & notifications</h2>
+            <p>Set up alerts and notifications so you can be reminded via email or phone whenever an issue comes up with EV chargers or charging stations.</p>
+        </div>
+    </div>
+    <div class="contact-button11">
+        <a href="#" class="btn11">Contact an Expert</a>
+    </div>
+    <br> <br> <br> <br>
+    <br> <br> <br> <br>
+    <div class="container12">
+        <div class="content12">
+            <h1>Streamline Billing and Payments</h1>
+            <p class="line12">Automated billings</p>
+            <p class="line12">Contactless payments</p>
+            <p class="line12">Various payment models</p>
+            <p class="line12">Integration</p>
+            <p class="line12">Collect & store billing info securely</p>
+        </div>
+        <img src="images/streamline.png" alt="Billing and Payments">
+    </div>
+    <br> <br> <br> <br>
+    <br> <br> <br> <br>
+   <center> <div class="container23">
+        <div class="main-title23">Guide decisions based on real-time charging statistics</div>
+        <div class="main-description23">Gain insights from several critical metrics from all your charging stations to make informed business decisions and improve user experience.</div>
+        
+        <div class="section23">
+            <img src="images/guide-decisions.png" alt="Charging Statistics">
+        </div>
+        <div class="section-content23">
+                <div class="features23">
+                    <div class="feature23">
+                        <div class="feature-title23">Visualized charging data</div>
+                        <div class="feature-description23">Data are visualized in the form of charts, graphs, and a real-time dashboard, showing key performance metrics like station utilization, power usage, charging duration, revenue trends, etc.</div>
+                    </div>
+                    <div class="feature23">
+                        <div class="feature-title23">Track historical data</div>
+                        <div class="feature-description23">View detailed records of charging activities, user charging behavior, charging station performance, and payment history at all charging stations.</div>
+                    </div>
+                    <div class="feature23">
+                        <div class="feature-title23">Statistics exports</div>
+                        <div class="feature-description23">All data can be exported in CSV or Excel format. Our platform is also integrable with other systems' APIs which allows you to extract data and export it to external applications for further analysis or use.</div>
+                    </div>
+                </div>
+            </div>
+    </div>
+   </center>
+    <br> <br> <br> <br>
+    <br> <br> <br> <br>
+    <><div >
+        <center><div style="margin-bottom:100px;">
+            <h1>Streamline Billing and Payments</h1>
+            <p>Our EV driver mobile app works in tandem with the charging management software to provide a seamless charging<br><center> experience for your users. They can:</center></p>
+        </div>
+    </center>
+    <br><br><br>
+    <div style="display:flex;gap:150px">
+            <ul style="margin-left:50px;margin-top:160px">
+                <li style="font-size:22px">Locate nearby charging stations</li>
+                <br><br><br>
+                <li style="font-size:22px">Pay with their card or another preferred method</li>
+                <br><br><br>
+                <li style="font-size:22px">Schedule charging</li>
+                <br><br><br>
+                <li style="font-size:22px">Track charging progress in real time</li>
+                <br><br><br>
+            </ul>
+            <img src="images/increased-convenience.png" alt="Mobile App Screenshots" style="width:700px;height:700px;margin-left:100px">
+
+        </div>
     
-    <div class="button-container2">
-        <button>Contact an Expert</button>
-    </div>
-    <br> <br> <br> <br>
-    <br> <br> <br> <br>
-   
-<div class="container4">
-    <h1>White Label for Any Industry</h1>
-    <p>Our white label services can be offered for businesses and organizations in a wide range of industries.</p>
-    <div class="grid4">
-        <div class="card4 blue-card4">
-            <img src="images/automakers-removebg-preview.png" alt="Automakers">
-            <h3>Automakers</h3>
-            <p>Get the flexibility to create a unique charging experience for your vehicle buyers.</p>
-        </div>
-        <div class="card4">
-            <img src="images/charging_network-removebg-preview.png" alt="Charging Networks">
-            <h3>Charging Networks</h3>
-            <p>Scale your network with chargers that can be easily integrated to your stations.</p>
-        </div>
-        <div class="card4">
-            <img src="images/cities-removebg-preview.png" alt="Cities and Governments">
-            <h3>Cities and Governments</h3>
-            <p>Foster green transportation and meet sustainability goals with your city style.</p>
-        </div>
-        <div class="card4">
-            <img src="images/entertainment-removebg-preview.png" alt="Entertainment">
-            <h3>Entertainment</h3>
-            <p>Build a convenient EV charging station that suits your venue design.</p>
-        </div>
-        <div class="card4">
-            <img src="images/fule-removebg-preview.png" alt="Fuel Retailers">
-            <h3>Fuel Retailers</h3>
-            <p>Upgrade your fuel retail business with chargers that can be tailored to your needs.</p>
-        </div>
-        <div class="card4">
-            <img src="images/healthcare-removebg-preview.png" alt="Healthcare">
-            <h3>Healthcare</h3>
-            <p>Get custom EV chargers that are accessible to all people visiting healthcare facilities.</p>
-        </div>
-    </div>
-</div>
+ 
 <br> <br> <br> <br>
 <br> <br> <br> <br>
-<div class="container5">
-    <h1>What You Can Customize</h1>
-    <p>We offer several customization options for you to easily use your brand and design on our chargers.</p>
-    <div class="customize-section5">
-        <div class="item5">
-            <img src="https://via.placeholder.com/30" alt="Management Software">
-            <h3>Management Software</h3>
-            <p>Our intelligent charger management system can also be customized by adding your brand to the software.</p>
-        </div>
-        <div class="item5" style="margin-top: 200px;">
-            <img src="https://via.placeholder.com/30" alt="Logo & Slogan">
-            <h3>Logo & Slogan</h3>
-            <p>You can place the logo and slogan of your own business on the chargers to boost your brand awareness.</p>
-        </div>
-        <div class="main-image5">
-            <img src="images/main.png" alt="Charger">
-        </div>
-        <div class="item5">
-            <img src="https://via.placeholder.com/30" alt="Color & Shape">
-            <h3>Color & Shape</h3>
-            <p>The look of your chargers can be made unique with the colors and shapes you choose for your brand style and other requirements.</p>
-        </div>
-        <div class="item5" style="margin-top: 200px;">
-            <img src="https://via.placeholder.com/30" alt="Additional Option">
-            <h3>Additional Option</h3>
-            <p>Describe another customization option here.</p>
-        </div>
-    </div>
-</div>
-    
-    </div>
-</div>
-    <br> <br> <br> <br>
-    <br> <br> <br> <br>
-    <div class="container6">
-        <div class="images6">
-            <img src="images/train.png" alt="Person at work" class="img11">
-            <img src="images/chair.png" alt="Person in wheelchair" class="img22">
-        </div>
-        <div class="text6">
-            <h1>Customize for Accessibility</h1>
-            <p>We make it easy for you to build a charging facility that is accessible to everyone. Our customization services allow you to adjust the heights of your chargers, and include easy-to-reach controls and clear signs. So people with disabilities or special needs can enjoy a seamless charging experience with no difficulties.</p>
+<div class="container55">
+        <h1>Energy Management for Smart Charging</h1>
+        <p>Optimize the charging capacity and efficiency of your EV charger network. Reduce energy costs and avoid blackouts.</p>
+        <div class="feature-section55">
+            <div class="feature-card55">
+                <h2>Power redistribution</h2>
+                <p>Dynamically distribute the available power more effectively among active charging stations. Reduce the chances of grid overload and minimize energy costs.</p>
+                <img src="images/power-redistribution.png" alt="Power redistribution diagram">
+            </div>
+            <div class="feature-card55">
+                <h2>Power regulation</h2>
+                <p>Regulate the amount of power that goes into all charging units based on demand. It can maintain grid stability and prevent blackouts.</p>
+                <img src="images/power-regulation.png" alt="Power regulation diagram">
+            </div>
         </div>
     </div>
     <br> <br> <br> <br>
@@ -365,6 +388,16 @@
         </div>
     </div>
     <br><br><br><br><br>
+    <div class="dropdown8">
+  <button class="dropbtn8">Dropdown</button>
+  <div class="dropdown-content8">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+    <br><br><br><br><br>
+
     <footer id="footer">
         <div class="footer-container">
             <div class="footer-column">
@@ -449,5 +482,29 @@
         </div>
     </footer>
     <script src="main.js"></script>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/arrow-up-svgrepo-com.png" style="width:20px;height:20px"></button>
+
+
+<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 </body>
 </html>

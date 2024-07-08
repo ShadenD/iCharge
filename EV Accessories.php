@@ -98,7 +98,7 @@
     </header>
     <div style="background-image: url('images/background.jpg');background-repeat: no-repeat;height:500px;background-size: 110%;margin-top: 80px;width: 110%;">
         <nav class="breadcrumb">
-            <a href="homeICharge.html">Home</a> &gt; 
+            <a href="homeICharge.php">Home</a> &gt; 
             <a>High Quality EV Charging Accessories</a>
         </nav> 
         <br> <br> <br> <br>
