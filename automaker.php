@@ -270,32 +270,76 @@
         </div>
         <div id="vehicle-type-cards" class="cards121">
             <div class="card121">
-                <img src="https://via.placeholder.com/50?text=E-Bus" alt="E-Bus">
+                <img src="images/Screenshot 2024-07-08 135929.png" alt="E-Bus">
                 <h3>E-Bus</h3>
             </div>
             <div class="card121">
-                <img src="https://via.placeholder.com/50?text=E-Truck" alt="E-Truck">
+                <img src="images/Screenshot1.png" alt="E-Truck">
                 <h3>E-Truck</h3>
             </div>
             <div class="card121">
-                <img src="https://via.placeholder.com/50?text=Car+Light+Vehicles" alt="Car & Light Vehicles">
+                <img src="images/Screenshot3.png" alt="Car & Light Vehicles">
                 <h3>Car & Light Vehicles</h3>
             </div>
         </div>
+        <div>
         <div id="industry-cards" class="cards121" style="display: none;">
+            <div class="card121">
+                <img src="images/Screenshot1.png" alt="Retail">
+                <h3>Retail</h3>
+            </div>
+            <div class="card121">
+                <img src="https://electrly.com/ev-charging-solution/automaker.png" alt="Retail">
+                <h3>Retail</h3>
+            </div>
             <div class="card121">
                 <img src="https://via.placeholder.com/50?text=Retail" alt="Retail">
                 <h3>Retail</h3>
             </div>
+            </div>
+            <div id="industry-cards" class="cards121" style="display: none;">
             <div class="card121">
-                <img src="https://via.placeholder.com/50?text=Hospitality" alt="Hospitality">
-                <h3>Hospitality</h3>
+                <img src="images/Screenshot1.png" alt="Retail">
+                <h3>Retail</h3>
             </div>
             <div class="card121">
-                <img src="https://via.placeholder.com/50?text=Workplace" alt="Workplace">
-                <h3>Workplace</h3>
+                <img src="https://electrly.com/ev-charging-solution/automaker.png" alt="Retail">
+                <h3>Retail</h3>
             </div>
-        </div>
+            <div class="card121">
+                <img src="https://via.placeholder.com/50?text=Retail" alt="Retail">
+                <h3>Retail</h3>
+            </div>
+            </div>
+            <div id="industry-cards" class="cards121" style="display: none;">
+            <div class="card121">
+                <img src="images/Screenshot1.png" alt="Retail">
+                <h3>Retail</h3>
+            </div>
+            <div class="card121">
+                <img src="https://electrly.com/ev-charging-solution/automaker.png" alt="Retail">
+                <h3>Retail</h3>
+            </div>
+            <div class="card121">
+                <img src="https://via.placeholder.com/50?text=Retail" alt="Retail">
+                <h3>Retail</h3>
+            </div>
+            </div>
+            <div id="industry-cards" class="cards121" style="display: none;">
+            <div class="card121">
+                <img src="images/Screenshot1.png" alt="Retail">
+                <h3>Retail</h3>
+            </div>
+            <div class="card121">
+                <img src="https://electrly.com/ev-charging-solution/automaker.png" alt="Retail">
+                <h3>Retail</h3>
+            </div>
+            <div class="card121">
+                <img src="https://via.placeholder.com/50?text=Retail" alt="Retail">
+                <h3>Retail</h3>
+            </div>
+            </div>
+  
     </div>
     <script>
         function showVehicleType() {

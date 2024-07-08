@@ -6,9 +6,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css-iCharge.css">
+    <script src="language.js" type="module"></script>
+
 </head>
 <body>
     <header style="display: flex;width: 100%;background-color: #1e0b6f;position: fixed;"> 
+    <select style="background-color:transparent;border:none;color:white;border-radius: 50px;font-size: 8px;">
+        <option value="en" data-i18n="english" selected>English</option>
+        <option value="ar" data-i18n="arabic">Arabic</option>
+      </select>
         <img src="images/iCharge-Logo-removebg-preview.png" style="width: 14%;height: 50%;margin-left: 100px;margin-top: 10px;margin-right: 120px;">
         <nav>
            <ul class="menu" id="scrollContainer">
@@ -85,6 +91,7 @@
                </li>
            </ul>
        </nav>
+ 
        <div class="button-container1">
            <button class="btn1 btn-primary1">  <i class="fas fa-user-friends	"></i>
                View Our Products</button>
@@ -329,7 +336,9 @@
       <br>
       <br>
       <br>
-   
+      
+     
+
         <div style="display: flex;">
         <div style="background-color: rgb(6, 123, 240); width: 70%;height: 10px;"></div>
         <div style="background-color: aqua; width: 30%;height: 10px;"></div>

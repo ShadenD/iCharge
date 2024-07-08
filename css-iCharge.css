@@ -1725,6 +1725,10 @@ width: 150px;
     justify-content: center;
     gap: 20px;
 }
+.card121:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-color: #007BFF;
+}
 .card121 {
     border: 1px solid #E5E5E5;
     border-radius: 10px;
