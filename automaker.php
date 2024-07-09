@@ -8,85 +8,147 @@
     <link rel="stylesheet" href="css-iCharge.css">
 </head>
 <body>
-    <header style="display: flex;width: 100%;background-color: #1e0b6f;position: fixed;"> 
+<header style="display: flex;width: 100%;background-color: #1e0b6f;position: fixed;"> 
         <img src="images/iCharge-Logo-removebg-preview.png" style="width: 14%;height: 50%;margin-left: 100px;margin-top: 10px;margin-right: 120px;">
         <nav>
            <ul class="menu" id="scrollContainer">
-               <li class="menu-item">Products
-                   <ul class="dropdown">
-                   <li><a href="#EV Chargers">EV Chargers</a></li>
-                       <li><a href="EV Accessories.php" style="justify-content: none;">EV Accessories</a></li>
-                       <li><a href="White Lable Chargers.php">White Label Chargers</a></li>
-                       <li><a href="software.php">Software</a></li>
-                   </ul>
-               </li>
-               <li class="menu-item">
-                   Solutions
-                   <ul class="dropdown1">
-                       <li class="dropdown-column1">
-                           <h3>By Industry</h3>
-                           <ul>
-                               <li><a href="automaker.php">Automaker</a></li>
-                               <li><a href="#">Cities and Governments</a></li>
-                               <li><a href="#">Entertainment</a></li>
-                               <li><a href="#">Fuel Retailers</a></li>
-                               <li><a href="#">Healthcare</a></li>
-                               <li><a href="#">Parking Lots</a></li>
-                               <li><a href="#">Residential</a></li>
-                               <li><a href="#">Street Power Poles</a></li>
-                               <li><a href="#">Charging Networks</a></li>
-                               <li><a href="#">Education</a></li>
-                               <li><a href="#">Fleets</a></li>
-                               <li><a href="#">Green Buildings</a></li>
-                               <li><a href="#">Hospitality</a></li>
-                               <li><a href="#">Property Developers</a></li>
-                               <li><a href="#">Restaurants</a></li>
-                               <li><a href="#">Workplaces</a></li>
-                           </ul>
-                       </li>
-                       <li class="dropdown-column">
-                           <h3>By Charging Level</h3>
-                           <ul>
-                               <li><a href="#">Level 1 Charger</a></li>
-                               <li><a href="#">Level 2 Charger</a></li>
-                               <li><a href="#">DC Fast Charging</a></li>
-                           </ul>
-                       </li>
-                       <li class="dropdown-column">
-                           <h3>By Charging Type</h3>
-                           <ul>
-                               <li><a href="#">Home Charging</a></li>
-                               <li><a href="#">Business Charging</a></li>
-                           </ul>
-                           <h3>By Vehicle Level</h3>
-                           <ul>
-                               <li><a href="#">E-Bus</a></li>
-                               <li><a href="#">E-Truck</a></li>
-                               <li><a href="#">Car & Light Vehicles</a></li>
-                           </ul>
-                       </li>
-                   </ul>
-               </li>
-               <li class="menu-item">Company
-                   <ul class="dropdown">
-                       <li><a href="#">EV Chargers</a></li>
-                       <li><a href="#">EV Accessories</a></li>
-                       <li><a href="#">White Label Chargers</a></li>
-                       <li><a href="#">Software</a></li>
-                   </ul>
-               </li>
-               <li class="menu-item">Resources
-                   <ul class="dropdown">
-                       <li><a href="#">EV Chargers</a></li>
-                       <li><a href="#">EV Accessories</a></li>
-                       <li><a href="#">White Label Chargers</a></li>
-                       <li><a href="#">Software</a></li>
-                   </ul>
-               </li>
+              
+<div class="dropdown7">
+  <button class="dropbtn">Products</button>
+  <div class="dropdown-content7">
+    <a href="#EV Chargers"">EV Chargers</a>
+    <a href="EV Accessories.php">EV Accessories</a>
+    <a href="White Lable Chargers.php">White Label Chargers</a>
+    <a href="software.php">Software</a>
+  </div>
+</div>
+<!-- ________________________________________________________________________ -->
+<div class="dropdown7">
+  <button class="dropbtn">Solutions</button>
+  <div class="dropdown-content8">
+    <div style="display: flex;">
+        <div>
+            <h1 style="color: rgb(0, 0, 0); text-decoration: none; display: block;font-size: 14px;margin-right: 60px;text-align: left;">By Industry</h1>
+            <p style="text-align: left;">______________________</p>
+<div style="display: flex;">
+     <div>
+    <a href="#EV Chargers"">Automaker</a>
+    <a href="EV Accessories.php">Cities and Governments</a>
+    <a href="White Lable Chargers.php">Entertainment</a>
+    <a href="software.php">Fuel Retailers/a>
+    <a href="#EV Chargers"">Healthcare</a>
+    <a href="EV Accessories.php">Parking Lots</a>
+    <a href="White Lable Chargers.php">Residential</a>
+    <a href="software.php">Street Power Poles</a>
+  </div>
+  <div >
+    <a href="#EV Chargers"">Charging Networks</a>
+    <a href="EV Accessories.php">Education</a>
+    <a href="White Lable Chargers.php">Fleets</a>
+    <a href="software.php">Green Buildings</li></a>
+    <a href="#EV Chargers"">Hospitality</a>
+    <a href="EV Accessories.php">Property Developers</a>
+    <a href="White Lable Chargers.php">Restaurants</a>
+    <a href="software.php">Workplaces</a>
+  </div>   
+
+            </div>
+    </div>
+    <!-- _______________________________________________ -->
+     <div>
+    <div style="margin-left: 40px;">
+            <h1 style="color: rgb(0, 0, 0); text-decoration: none; display: block;font-size: 14px;margin-right: 60px;text-align: left;">By Charging Level</h1>
+            <p style="text-align: left;">______________________</p>
+
+     <div>
+    <a href="#EV Chargers"">Level 1 Charger</a>
+    <a href="EV Accessories.php">Level 2 Charger</a>
+    <a href="White Lable Chargers.php">DC Fast Charging</a>
+  </div>          
+    </div>
+    <div style="margin-left: 40px;">
+            <h1 style="color: rgb(0, 0, 0); text-decoration: none; display: block;font-size: 14px;margin-right: 60px;text-align: left;">By Charging Type</h1>
+            <p style="text-align: left;">______________________</p>
+
+     <div>
+    <a href="#EV Chargers"">Home Charging</a>
+    <a href="EV Accessories.php">Business Charging</a>
+  </div>          
+    </div>
+    </div>
+
+
+    <div style="margin-left: 40px;">
+            <h1 style="color: rgb(0, 0, 0); text-decoration: none; display: block;font-size: 14px;margin-right: 60px;text-align: left;">By Vehicle Level</h1>
+            <p style="text-align: left;">______________________</p>
+
+     <div>
+    <a href="#EV Chargers"">E-Bus</a>
+    <a href="EV Accessories.php">E-Truck</a>
+    <a href="White Lable Chargers.php">Car & Light Vehicles</a>
+  </div>          
+    </div>
+    </div>
+  </div>
+</div>
+<!-- _________________________________________________________________________ -->
+<div class="dropdown7">
+  <button class="dropbtn">Company</button>
+  <div class="dropdown-content7">
+    <a href="#EV Chargers"">About Us</a>
+    <a href="EV Accessories.php">Contact Us</a>
+    <a href="White Lable Chargers.php">Partner Program</a>
+    <a href="software.php">Certifications</a>
+    <a href="EV Accessories.php">Customer Story</a>
+    <a href="White Lable Chargers.php">Gallery</a>
+  </div>
+</div>
+<!-- _____________________________________________________________________ -->
+<div class="dropdown7">
+  <button class="dropbtn">Resources</button>
+  <div class="dropdown-content9">
+    <div style="display: flex;">
+      
+ <!-- _______________________________________________ -->
+     <div>
+    <div style="margin-left: 10px;">
+            <h1 style="color: rgb(0, 0, 0); text-decoration: none; display: block;font-size: 14px;margin-right: 60px;text-align: left;">Find A Charger</h1>
+            <p style="text-align: left;">______________________</p>
+
+     <div>
+    <a href="#EV Chargers" style="text-align: left;">EV Charging Stations Near Me</a>
+    <a href="EV Accessories.php" style="text-align: left;">Tesla Superchargers Near Me</a>
+    <a href="White Lable Chargers.php" style="text-align: left;">EV Charging Stations Near Me in Canada</a>
+  </div>          
+    </div>
+    <div style="margin-left: 1s0px;">     
+    </div>
+    </div>
+    <div style="margin-left: 40px;">
+            <h1 style="color: rgb(0, 0, 0); text-decoration: none; display: block;font-size: 14px;margin-right: 60px;text-align: left;">Learn</h1>
+            <p style="text-align: left;">______________________</p>
+
+     <div>
+    <a href="#EV Chargers" style="text-align: left;">EV Basics</a>
+    <a href="EV Accessories.php" style="text-align: left;">EV Charging Guide</a>
+    <a href="White Lable Chargers.php" style="text-align: left;">EV Charging Business</a>
+    <a href="White Lable Chargers.php" style="text-align: left;">EV Network & Reviews</a>
+    <a href="White Lable Chargers.php" style="text-align: left;">EV Charger Manufacturers</a>
+
+  </div>          
+    </div>
+    </div>
+  </div>
+</div>
            </ul>
        </nav>
+       <select style="background-color:transparent;border:none;color:white;border-radius: 50px;font-size: 12px;margin-left:140px;">
+        <option value="en" data-i18n="english" style="color:black" selected>English</option>
+        <option value="ar" data-i18n="arabic" style="color:black">Arabic</option>
+      </select>
+ 
        <div class="button-container1">
-           <button class="btn1 btn-primary1">  <i class="fas fa-user-friends	"></i>
+           <button class="btn1 btn-primary1">  <i class="fas fa-user-friends"></i>
                View Our Products</button>
            <button class="btn1 btn-outline1">Contact an Expert</button>
        </div>
