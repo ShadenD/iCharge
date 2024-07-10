@@ -1936,4 +1936,49 @@ width: 150px;
 .content214  button:hover {
     background-color: #0056b3;
 }
+/* ____________________________________________________________________ */
+
+.container222 {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(3, 3, 54);
+}
+.content222 {
+    max-width: 500px;
+    margin-right: 50px;
+    margin-left: 90px;
+}
+.content222 h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: white;
+}
+.content222 p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: white;
+}
+.content222 button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.content222 button:hover {
+    background-color: #0056b3;
+}
+.image-container {
+    position: relative;
+}
+.image-container222 img {
+    height: 400px;
+    width: auto;
+    margin-left: 290px;
+}
 

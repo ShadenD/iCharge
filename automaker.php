@@ -327,6 +327,18 @@
 
     <br><br><br><br>
     <br><br><br><br>
+    <div class="container222">
+        <div class="content222">
+            <h1>Spread Your Brand Name With Our White-Label Service</h1>
+            <p>Our white-label service can help you maximize the visibility of your brand and display your commitment to EV adoption. You can elevate your brand awareness by attaching your brand name to the chargers. You can also select the shape and color of the chargers to match a particular model design, and we will produce them based on your requirements.</p>
+            <button>Learn more</button>
+        </div>
+        <div class="image-container222">
+            <img src="images/customizable (1).png" alt="EV Charger">
+        </div>
+    </div>
+    <br><br><br><br>
+    <br><br><br><br>
     <div class="container121">
         <h1>Explore Our Other EV Charging Solutions</h1>
         <div class="tabs121">
