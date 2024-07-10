@@ -333,7 +333,73 @@ attract new clients, increase EV sales,<br> and extend their business to charger
             </div>
         </div>
     </section>
+<!-- _______________________________________________________________ -->
+    <br><br><br><br>
+    <br><br><br><br>
+    <div class="container222">
+        <div class="content222">
+            <h1>Spread Your Brand Name With Our White-Label Service</h1>
+            <p>Our white-label service can help you maximize the visibility of your brand and display your commitment to EV adoption. You can elevate your brand awareness by attaching your brand name to the chargers. You can also select the shape and color of the chargers to match a particular model design, and we will produce them based on your requirements.</p>
+            <button>Learn more</button>
+        </div>
+        <div class="image-container222">
+            <img src="images/customizable (1).png" alt="EV Charger">
+        </div>
+    </div>
+    <br><br><br><br>
+    <br><br><br><br>
+    <div class="container333">
+        <h1>Enhance Your Management Experience With Intelligent Software</h1>
+        <div class="tabs333">
+            <div class="tab333 active333" onclick="showTab(0)">Remote Management</div>
+            <div class="tab333" onclick="showTab(1)">Load Balancing</div>
+            <div class="tab333" onclick="showTab(2)">Easy Payment Settings</div>
+            <div class="tab333" onclick="showTab(3)">Comprehensive Charging Report</div>
+        </div>
+        <div class="content333 active333" id="content-0">
+            <p>Our smart management system allows you to monitor each charging event and manage all the chargers in a specific station in your city with a few clicks in front of the screen.</p>
+        </div>
+        <div class="content333" id="content-1">
+            <p>Load balancing ensures optimal energy distribution, preventing overload and reducing costs.</p>
+        </div>
+        <div class="content333" id="content-2">
+            <p>Easy payment settings provide a hassle-free experience for users, ensuring quick and secure transactions.</p>
+        </div>
+        <div class="content333" id="content-3">
+            <p>Comprehensive charging reports give detailed insights into usage patterns and efficiency.</p>
+        </div>
+        <div class="image-container333">
+            <button class="arrow333 left333" onclick="prevImage()">&#9664;</button>
+            <img src="image.png" alt="Management System" id="carousel-image">
+            <button class="arrow333 right333" onclick="nextImage()">&#9654;</button>
+        </div>
+    </div>
+    <script>
+        let currentTab = 0;
+        const tabs = document.querySelectorAll('.tab333');
+        const contents = document.querySelectorAll('.content333');
+        const images = ['images/payment.png', 'images/remote-network.png', 'images/reports.png', 'images/smart-charge.png'];
 
+        function showTab(index) {
+            tabs[currentTab].classList.remove('active333');
+            contents[currentTab].classList.remove('active333');
+            currentTab = index;
+            tabs[currentTab].classList.add('active333');
+            contents[currentTab].classList.add('active333');
+            document.getElementById('carousel-image').src = images[currentTab];
+        }
+
+        function prevImage() {
+            let newTab = (currentTab > 0) ? currentTab - 1 : images.length - 1;
+            showTab(newTab);
+        }
+
+        function nextImage() {
+            let newTab = (currentTab < images.length - 1) ? currentTab + 1 : 0;
+            showTab(newTab);
+        }
+    </script>
+    <!-- ___________________________________________________________________________________________ -->
     <br><br><br><br>
     <br><br><br><br>
     <div class="container121">
