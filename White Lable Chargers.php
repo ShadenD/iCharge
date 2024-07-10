@@ -547,5 +547,27 @@
             });
         }
     </script>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/arrow-up-svgrepo-com.png" style="width:20px;height:20px"></button>
+
+
+
+<script>
+let mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 </body>
 </html>

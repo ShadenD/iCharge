@@ -6,6 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css-iCharge.css">
+    <script src="language.js" type="module"></script>
+
 </head>
 <body>
 <header style="display: flex;width: 100%;background-color: #1e0b6f;position: fixed;"> 
@@ -158,12 +160,12 @@
     <div style="background-image: url('images/background.jpg');background-repeat: no-repeat;height:500px;background-size: 110%;margin-top: 80px;width: 110%;">
         <br> <br> <br> <br> <br> 
   <center>
-    <img src="images/automaker_3_85f50bb18b.png" style="width:50px;height:60px;margin-right:150px">
+    <img src="images/cities_government_3_9c384a9230.png" style="width:50px;height:60px;margin-right:150px">
     <br><br><br><br>
-    <h1 style="font-size:50px;font-weight: bold;color:white;margin-right:150px;">EV Charging for Automakers</h1>
+    <h1 style="font-size:50px;font-weight: bold;color:white;margin-right:150px;" data-i18n="29">EV Charging for Cities Government</h1>
     <br> <br> <br>
     <div style="margin-right:150px;">
-      <a href="#footer"><button class="btn btn-primary">Contact an Expert</button></a>
+      <a href="#footer"><button class="btn btn-primary" data-i18n="contact">Contact an Expert</button></a>
     </div>
   </center>
     </div>
@@ -173,17 +175,21 @@
     <center>
     <div style="display:flex; width:100%;height:auto;">
         <div style="width: 50%;margin-top:120px;margin-left:120px">
-        <h1 style="font-size:35px;color:black;font-weight: bold;text-align: left;">Increase EV Sales Easily With Our<br> Easy-To-Use Chargers</h1>
-        <p style="color:grey;text-align: left;">As EVs rapidly sweep the automotive industry, in addition to<br> manufacturing EVs, automakers also need to provide efficient and hassle-<br>free charging experiences for their customers. Here at Electrly, we offer<br> charging solutions from design to manufacturing, helping automakers<br> attract new clients, increase EV sales, and extend their business to chargers.</p>
+        <h1 style="font-size:35px;color:black;font-weight: bold;text-align: left;" data-i18n="30">Create a Green Community With Our<br> Highly Efficient EV Charger</h1>
+        <p style="color:grey;text-align: left;" data-i18n="31">As EVs rapidly sweep the automotive industry,<br> in addition to
+manufacturing EVs, automakers also need to provide efficient<br> and hassle-
+free charging<br> experiences for their customers. Here at Electrly, we offer
+charging solutions from design to manufacturing, helping automakers
+attract new clients, increase EV sales,<br> and extend their business to chargers.</p>
         </div>
-        <img src="images/automaker_2_c931323fd822.png">
+        <img src="images/cities_and_government3.png" style="margin-left: 20px;">
     </div>
     </center>
 
     <br><br><br><br>
     <br><br><br><br>
     <section class="benefit-section21">
-        <h1>Win-Win: How We Benefit Both Your Business and Your Customers</h1>
+        <h1 data-i18n="32">Win-Win: How We Can Benefit Your City and Your Citizens</h1>
         <div class="benefit-cards21">
             <div class="benefit-card21">
                 <h2 style="text-align: left;">Increase Your EV Sales Without Hassles</h2>
@@ -320,7 +326,10 @@
                     </div>
                     </div>
                 </ul>
+                <div style="display:flex;gap:20px">
+                <button>View More Detailes</button>
                 <button>Contact an Expert</button>
+                </div>
             </div>
         </div>
     </section>

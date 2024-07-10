@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>iCharge</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css-iCharge.css">
     <script src="language.js" type="module"></script>
@@ -16,42 +16,42 @@
            <ul class="menu" id="scrollContainer">
               
 <div class="dropdown7">
-  <button class="dropbtn">Products</button>
+  <button class="dropbtn" data-i18n="products">Products</button>
   <div class="dropdown-content7">
-    <a href="#EV Chargers"">EV Chargers</a>
-    <a href="EV Accessories.php">EV Accessories</a>
-    <a href="White Lable Chargers.php">White Label Chargers</a>
-    <a href="software.php">Software</a>
+    <a href="#EV Chargers" data-i18n="1">EV Chargers</a>
+    <a href="EV Accessories.php" data-i18n="2">EV Accessories</a>
+    <a href="White Lable Chargers.php" data-i18n="3">White Label Chargers</a>
+    <a href="software.php" data-i18n="4">Software</a>
   </div>
 </div>
 <!-- ________________________________________________________________________ -->
 <div class="dropdown7">
-  <button class="dropbtn">Solutions</button>
+  <button class="dropbtn" data-i18n="solutions">Solutions</button>
   <div class="dropdown-content8">
     <div style="display: flex;">
         <div>
-            <h1 style="color: rgb(0, 0, 0); text-decoration: none; display: block;font-size: 14px;margin-right: 60px;text-align: left;">By Industry</h1>
+            <h1 style="color: rgb(0, 0, 0); text-decoration: none; display: block;font-size: 14px;margin-right: 60px;text-align: left;" data-i18n="25">By Industry</h1>
             <p style="text-align: left;">______________________</p>
 <div style="display: flex;">
      <div>
-    <a href="#EV Chargers"">Automaker</a>
-    <a href="EV Accessories.php">Cities and Governments</a>
-    <a href="White Lable Chargers.php">Entertainment</a>
-    <a href="software.php">Fuel Retailers/a>
-    <a href="#EV Chargers"">Healthcare</a>
-    <a href="EV Accessories.php">Parking Lots</a>
-    <a href="White Lable Chargers.php">Residential</a>
-    <a href="software.php">Street Power Poles</a>
+    <a href="automaker.php" data-i18n="5">Automaker</a>
+    <a href="cities and goverment.php" data-i18n="6">Cities and Governments</a>
+    <a href="White Lable Chargers.php" data-i18n="7">Entertainment</a>
+    <a href="software.php" data-i18n="8">Fuel Retailers</a>
+    <a href="#EV Chargers" data-i18n="9">Healthcare</a>
+    <a href="EV Accessories.php" data-i18n="10">Parking Lots</a>
+    <a href="White Lable Chargers.php" data-i18n="11">Residential</a>
+    <a href="software.php" data-i18n="12">Street Power Poles</a>
   </div>
   <div >
-    <a href="#EV Chargers"">Charging Networks</a>
-    <a href="EV Accessories.php">Education</a>
-    <a href="White Lable Chargers.php">Fleets</a>
-    <a href="software.php">Green Buildings</li></a>
-    <a href="#EV Chargers"">Hospitality</a>
-    <a href="EV Accessories.php">Property Developers</a>
-    <a href="White Lable Chargers.php">Restaurants</a>
-    <a href="software.php">Workplaces</a>
+    <a href="#EV Chargers" data-i18n="13">Charging Networks</a>
+    <a href="EV Accessories.php" data-i18n="14">Education</a>
+    <a href="White Lable Chargers.php" data-i18n="15">Fleets</a>
+    <a href="software.php" data-i18n="16">Green Buildings</li></a>
+    <a href="#EV Chargers" data-i18n="17">Hospitality</a>
+    <a href="EV Accessories.php" data-i18n="18">Property Developers</a>
+    <a href="White Lable Chargers.php" data-i18n="19">Restaurants</a>
+    <a href="software.php" data-i18n="20">Workplaces</a>
   </div>   
 
             </div>
@@ -59,17 +59,17 @@
     <!-- _______________________________________________ -->
      <div>
     <div style="margin-left: 40px;">
-            <h1 style="color: rgb(0, 0, 0); text-decoration: none; display: block;font-size: 14px;margin-right: 60px;text-align: left;">By Charging Level</h1>
+            <h1 style="color: rgb(0, 0, 0); text-decoration: none; display: block;font-size: 14px;margin-right: 60px;text-align: left;" data-i18n="24">By Charging Level</h1>
             <p style="text-align: left;">______________________</p>
 
      <div>
-    <a href="#EV Chargers"">Level 1 Charger</a>
-    <a href="EV Accessories.php">Level 2 Charger</a>
-    <a href="White Lable Chargers.php">DC Fast Charging</a>
+    <a href="#EV Chargers" data-i18n="21">Level 1 Charger</a>
+    <a href="EV Accessories.php" data-i18n="22">Level 2 Charger</a>
+    <a href="White Lable Chargers.php" data-i18n="23">DC Fast Charging</a>
   </div>          
     </div>
     <div style="margin-left: 40px;">
-            <h1 style="color: rgb(0, 0, 0); text-decoration: none; display: block;font-size: 14px;margin-right: 60px;text-align: left;">By Charging Type</h1>
+            <h1 style="color: rgb(0, 0, 0); text-decoration: none; display: block;font-size: 14px;margin-right: 60px;text-align: left;" data-i18n="26">By Charging Type</h1>
             <p style="text-align: left;">______________________</p>
 
      <div>
@@ -81,7 +81,7 @@
 
 
     <div style="margin-left: 40px;">
-            <h1 style="color: rgb(0, 0, 0); text-decoration: none; display: block;font-size: 14px;margin-right: 60px;text-align: left;">By Vehicle Level</h1>
+            <h1 style="color: rgb(0, 0, 0); text-decoration: none; display: block;font-size: 14px;margin-right: 60px;text-align: left;" data-i18n="27">By Vehicle Level</h1>
             <p style="text-align: left;">______________________</p>
 
      <div>
@@ -95,7 +95,7 @@
 </div>
 <!-- _________________________________________________________________________ -->
 <div class="dropdown7">
-  <button class="dropbtn">Company</button>
+  <button class="dropbtn" data-i18n="company">Company</button>
   <div class="dropdown-content7">
     <a href="#EV Chargers"">About Us</a>
     <a href="EV Accessories.php">Contact Us</a>
@@ -107,7 +107,7 @@
 </div>
 <!-- _____________________________________________________________________ -->
 <div class="dropdown7">
-  <button class="dropbtn">Resources</button>
+  <button class="dropbtn" data-i18n="resources">Resources</button>
   <div class="dropdown-content9">
     <div style="display: flex;">
       
@@ -150,20 +150,20 @@
       </select>
  
        <div class="button-container1">
-           <button class="btn1 btn-primary1">  <i class="fas fa-user-friends"></i>
+           <button class="btn1 btn-primary1" data-i18n="ourProducts">  <i class="fas fa-user-friends"></i>
                View Our Products</button>
-           <button class="btn1 btn-outline1">Contact an Expert</button>
+           <button class="btn1 btn-outline1" data-i18n="contact">Contact an Expert</button>
        </div>
         <!-- div for categories -->
     </div>
     </header>
     <div style="background-image: url('images/background.jpg');background-repeat: no-repeat;height:800px;background-size: 110%;margin-top: 80px;width: 110%;">
         <br> <br> <br> <br> <br> 
-        <h1 style="color: white; font-size: 50px; font-weight: bold; margin-left: 90px; margin-top: 40px;">Electrly: comprehensive EV<br> Charging Station Solution<br> Provider </h1>
-     <div><p style="color: white; font-size: 21px;margin-left: 80px; margin-top: 100px;">Electrly offers a wide range of intelligent and fast charging solutions that can fit into<br> various residential, commercial, and industrial settings.</p></div>
+        <h1 style="color: white; font-size: 50px; font-weight: bold; margin-left: 90px; margin-top: 40px;" data-i18n="comprehensive">Electrly: comprehensive EV<br> Charging Station Solution<br> Provider </h1>
+     <div><p style="color: white; font-size: 21px;margin-left: 80px; margin-top: 100px;" data-i18n="28">Electrly offers a wide range of intelligent and fast charging solutions that can fit into<br> various residential, commercial, and industrial settings.</p></div>
      <div class="button-container">
-      <a href="#footer"><button class="btn btn-primary">View Our Products</button></a>
-        <button class="btn btn-outline">Contact an Expert</button>
+      <a href="#footer"><button class="btn btn-primary" data-i18n="ourProducts">View Our Products</button></a>
+        <button class="btn btn-outline" data-i18n="contact">Contact an Expert</button>
     </div>
     </div>
      <!-- logo and row div -->

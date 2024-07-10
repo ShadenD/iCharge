@@ -4,6 +4,7 @@ html{
 body {
     font-family: Arial, sans-serif;
     background-color: white;
+    direction: ltr;
 }
 .container1 {
     width: 100%; /* Full width parent container */
@@ -1881,4 +1882,58 @@ width: 150px;
 
   .dropdown7:hover .dropdown-content8 {display: block;width: 200px;}
   .dropdown7:hover .dropdown-content9 {display: block;width: 60px;}
+
+
+
+
+
+
+
+
+
+
+  /* _______________________________________________________________________________________________ */
+  .container214 {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+.background-image214  {
+    background-image: url('images/businesses.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 50px;
+    width: 100%;
+}
+.content214  {
+    max-width: 500px;
+    background: transparent;
+    padding: 20px;
+    border-radius: 10px;
+}
+.content214  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.content214  p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+.content214  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.content214  button:hover {
+    background-color: #0056b3;
+}
 

@@ -163,8 +163,7 @@
     <div style="background-image: url('images/background.jpg');background-repeat: no-repeat;height:550px;background-size: 110%;margin-top: 80px;width: 110%;    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);    object-fit: cover;">
         <nav class="breadcrumb">
             <a href="homeICharge.php">Home</a> &gt; 
-            <a href="homeICharge.php ">Explore Electrly's EV Chargers</a>
-            <a style="text-decoration: none;">White Lable Chargers</a>
+            <a style="text-decoration: none;">Software</a>
         </nav> 
         <div style="display: flex;">
             <div style="margin-right: 380px;">
@@ -287,6 +286,15 @@
         </div>
     
  
+<br> <br> <br> <br>
+<br> <br> <br> <br>
+<div class="background-image214 container214">
+        <div class="content214">
+            <h1>Increased Profits For Businesses</h1>
+            <p>Optimize revenue by implementing flexible pricing strategies like adjusting pricing based on charging speed and demand, tracking maintenance needs, minimizing running costs, and implementing dynamic load management strategies which help to reduce downtime and energy bills.</p>
+            <button>Contact an Expert</button>
+        </div>
+    </div>
 <br> <br> <br> <br>
 <br> <br> <br> <br>
 <div class="container55">
