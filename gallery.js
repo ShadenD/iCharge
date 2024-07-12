@@ -67,3 +67,11 @@ function showLess() {
     showMoreBtn.textContent = "Show more";
     showMoreBtn.setAttribute("onclick", "showMore()");
 }
+
+
+
+
+document.getElementById('showMoreBtn').addEventListener('click', function() {
+    alert('Show more button clicked');
+    // Add your functionality here
+});

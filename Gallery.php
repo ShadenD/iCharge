@@ -217,6 +217,30 @@
                 <div class="text">Preview</div>
             </div>
         </div>
+        <div class="photo" onclick="previewImage(this)">
+            <img src="images/444.jpg" alt="Image 2">
+            <div class="overlay">
+                <div class="text">Preview</div>
+            </div>
+        </div>
+        <div class="photo" onclick="previewImage(this)">
+            <img src="images/1010.jpg" alt="Image 2">
+            <div class="overlay">
+                <div class="text">Preview</div>
+            </div>
+        </div>
+        <div class="photo" onclick="previewImage(this)">
+            <img src="images/1111.jpg" alt="Image 2">
+            <div class="overlay">
+                <div class="text">Preview</div>
+            </div>
+        </div>
+        <div class="photo" onclick="previewImage(this)">
+            <img src="images/1212.jpg" alt="Image 2">
+            <div class="overlay">
+                <div class="text">Preview</div>
+            </div>
+        </div>
         <!-- Add more photos as needed -->
     </div>
     <div class="show-more" id="showMoreBtn" onclick="showMore()">Show more</div>
@@ -228,6 +252,49 @@
         </center>
       </div>
     <script src="gallery.js"></script>
+    <br><br><br><br><br><br>  <br><br><br><br><br><br>
+    <!-- ___________________________________________________________________________________ -->
+    <div style="width: 100%;height: auto;">
+       <center><img src="images/exhibtit.png" style="margin-right: 40px;"></center>
+        <br><br>
+        <h4 style="margin-left: 170px;">Fully Charged LIVE Europe 2023</h4>
+        <center>
+      <div class="gallery" id="gallery">
+        <div class="photo" onclick="previewImage(this)">
+            <img src="images/nl-exhibition-1.jpg" alt="Image 1">
+            <div class="overlay">
+                <div class="text">Preview</div>
+            </div>
+        </div>
+        <div class="photo" onclick="previewImage(this)">
+            <img src="images/nl-exhibition-10.jpg" alt="Image 2">
+            <div class="overlay">
+                <div class="text">Preview</div>
+            </div>
+        </div>
+        <div class="photo" onclick="previewImage(this)">
+            <img src="images/nl-exhibition-11.jpg" alt="Image 2">
+            <div class="overlay">
+                <div class="text">Preview</div>
+            </div>
+        </div>
+        <div class="photo" onclick="previewImage(this)">
+            <img src="images/nl-exhibition-12.jpg" alt="Image 2">
+            <div class="overlay">
+                <div class="text">Preview</div>
+            </div>
+        </div>
+
+        <!-- Add more photos as needed -->
+    </div>
+    <div class="show-more" id="showMoreBtn" onclick="showMore()">Show more</div>
+
+    <div id="previewModal" class="modal">
+        <span class="close" onclick="closePreview()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+        </center>
+      </div>
       <br>
       <br>
       <br>
