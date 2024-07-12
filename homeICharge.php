@@ -99,7 +99,7 @@
   <div class="dropdown-content7">
     <a href="#EV Chargers"">About Us</a>
     <a href="EV Accessories.php">Contact Us</a>
-    <a href="White Lable Chargers.php">Partner Program</a>
+    <a href="partner-program.php">Partner Program</a>
     <a href="certifications.php">Certifications</a>
     <a href="EV Accessories.php">Customer Story</a>
     <a href="Gallery.php">Gallery</a>
