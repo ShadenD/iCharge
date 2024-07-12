@@ -97,7 +97,7 @@
 <div class="dropdown7">
   <button class="dropbtn" data-i18n="company">Company</button>
   <div class="dropdown-content7">
-    <a href="#EV Chargers"">About Us</a>
+    <a href="about us.php"">About Us</a>
     <a href="contact us.php">Contact Us</a>
     <a href="partner-program.php">Partner Program</a>
     <a href="certifications.php">Certifications</a>
