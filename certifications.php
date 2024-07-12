@@ -159,143 +159,46 @@
         <!-- div for categories -->
     </div>
     </header>
-    <div style="background-image: url('images/background.jpg');background-repeat: no-repeat;height:400px;background-size: 110%;margin-top: 80px;width: 110%;">
+    <div style="background-image: url('images/background.jpg');background-repeat: no-repeat;height:600px;background-size: 110%;margin-top: 30px;width: 110%;text-align: left;">
+        <h1 style="color: white; font-size: 50px; font-weight: bold; margin-right: 20px;text-align: left;margin-left: 80px;">Go Electrified with<br> Certified Products<br> From Electrly</h1>
         <br> <br> <br> <br> <br> 
-        <center>
-        <h1 style="color: white; font-size: 50px; font-weight: bold; margin-right: 20px; margin-top: 40px;">GALLERY</h1>
+        <h1 style="color: white; font-size: 30px; font-weight: bold; margin-right: 20px;text-align: left;margin-left: 80px;">Quality Backed By<br> Certifications</h1>
       
-     <div><p style="color: white; font-size: 21px;margin-right: 80px; margin-top: 100px;" >Discover the dedication, innovation and technology behind our EV charging products.</p></div>
-     </center>
+     <div><p style="color: white; font-size: 21px;margin-left: 80px;text-align: left;" >At <a href="homeICharge.php">Electrly,</a> we're committed to researching, developing, and crafting<br> certified and industry-leading charging products. We work hard to<br> uphold the highest quality, safety, and eco-friendly standards, so we<br> can deliver reliable and durable chargers that meet our customers'<br> requirements.</p></div>
     </div>
+<!-- _______________________________________________________________________________________ -->
+<div class="container4567">
+        <h1>Our Certifications</h1>
+        <div class="gallery4567">
+            <div class="gallery-item4567" onclick="showPreview('images/credential1.jpg')">
+                <img src="images/credential1.jpg" alt="Certificate 1">
+            </div>
+            <div class="gallery-item4567" onclick="showPreview('images/credential2.jpg')">
+                <img src="images/credential2.jpg" alt="Certificate 2">
+            </div>
+            <div class="gallery-item4567" onclick="showPreview('images/credential3.jpg')">
+                <img src="images/credential3.jpg" alt="Certificate 3">
+            </div>
+            <div class="gallery-item4567" onclick="showPreview('images/credential4.jpg')">
+                <img src="images/credential4.jpg" alt="Certificate 4">
+            </div>
+            <div class="gallery-item4567" onclick="showPreview('images/credential5.jpg')">
+                <img src="images/credential5.jpg" alt="Certificate 5">
+            </div>
+            <div class="gallery-item4567" onclick="showPreview('images/credential6.jpg')">
+                <img src="images/credential6.jpg" alt="Certificate 6">
+            </div>
+        </div>
+    </div>
+
+    <div id="previewModal" class="modal" onclick="closePreview()">
+        <span class="close" onclick="closePreview()">&times;</span>
+        <img class="modal-content" id="previewImg">
+    </div>
+
+    <script src="certificate.js"></script>
+
     <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <div style="width: 100%;height: auto;">
-       <center><img src="images/factory.png" style="margin-right: 40px;"></center>
-        <br><br>
-        <center>
-      <div class="gallery" id="gallery">
-        <div class="photo" onclick="previewImage(this)">
-            <img src="images/111.jpg" alt="Image 1">
-            <div class="overlay">
-                <div class="text">Preview</div>
-            </div>
-        </div>
-        <div class="photo" onclick="previewImage(this)">
-            <img src="images/222.jpg" alt="Image 2">
-            <div class="overlay">
-                <div class="text">Preview</div>
-            </div>
-        </div>
-        <div class="photo" onclick="previewImage(this)">
-            <img src="images/555.jpg" alt="Image 2">
-            <div class="overlay">
-                <div class="text">Preview</div>
-            </div>
-        </div>
-        <div class="photo" onclick="previewImage(this)">
-            <img src="images/666.jpg" alt="Image 2">
-            <div class="overlay">
-                <div class="text">Preview</div>
-            </div>
-        </div>
-        <div class="photo" onclick="previewImage(this)">
-            <img src="images/777.jpg" alt="Image 2">
-            <div class="overlay">
-                <div class="text">Preview</div>
-            </div>
-        </div>
-        <div class="photo" onclick="previewImage(this)">
-            <img src="images/888.jpg" alt="Image 2">
-            <div class="overlay">
-                <div class="text">Preview</div>
-            </div>
-        </div>
-        <div class="photo" onclick="previewImage(this)">
-            <img src="images/444.jpg" alt="Image 2">
-            <div class="overlay">
-                <div class="text">Preview</div>
-            </div>
-        </div>
-        <div class="photo" onclick="previewImage(this)">
-            <img src="images/1010.jpg" alt="Image 2">
-            <div class="overlay">
-                <div class="text">Preview</div>
-            </div>
-        </div>
-        <div class="photo" onclick="previewImage(this)">
-            <img src="images/1111.jpg" alt="Image 2">
-            <div class="overlay">
-                <div class="text">Preview</div>
-            </div>
-        </div>
-        <div class="photo" onclick="previewImage(this)">
-            <img src="images/1212.jpg" alt="Image 2">
-            <div class="overlay">
-                <div class="text">Preview</div>
-            </div>
-        </div>
-        <!-- Add more photos as needed -->
-    </div>
-    <div class="show-more" id="showMoreBtn" onclick="showMore()">Show more</div>
-
-    <div id="previewModal" class="modal">
-        <span class="close" onclick="closePreview()">&times;</span>
-        <img class="modal-content" id="modalImage">
-    </div>
-        </center>
-      </div>
-    <script src="gallery.js"></script>
-    <br><br><br><br><br><br>  <br><br><br><br><br><br>
-    <!-- ___________________________________________________________________________________ -->
-    <div style="width: 100%;height: auto;">
-       <center><img src="images/exhibtit.png" style="margin-right: 40px;"></center>
-        <br><br>
-        <h4 style="margin-left: 170px;">Fully Charged LIVE Europe 2023</h4>
-        <center>
-      <div class="gallery" id="gallery">
-        <div class="photo" onclick="previewImage(this)">
-            <img src="images/nl-exhibition-1.jpg" alt="Image 1">
-            <div class="overlay">
-                <div class="text">Preview</div>
-            </div>
-        </div>
-        <div class="photo" onclick="previewImage(this)">
-            <img src="images/nl-exhibition-10.jpg" alt="Image 2">
-            <div class="overlay">
-                <div class="text">Preview</div>
-            </div>
-        </div>
-        <div class="photo" onclick="previewImage(this)">
-            <img src="images/nl-exhibition-11.jpg" alt="Image 2">
-            <div class="overlay">
-                <div class="text">Preview</div>
-            </div>
-        </div>
-        <div class="photo" onclick="previewImage(this)">
-            <img src="images/nl-exhibition-12.jpg" alt="Image 2">
-            <div class="overlay">
-                <div class="text">Preview</div>
-            </div>
-        </div>
-
-        <!-- Add more photos as needed -->
-    </div>
-    <div class="show-more" id="showMoreBtn" onclick="showMore()">Show more</div>
-
-    <div id="previewModal" class="modal">
-        <span class="close" onclick="closePreview()">&times;</span>
-        <img class="modal-content" id="modalImage">
-    </div>
-        </center>
-      </div>
-      <script src="gallery.js"></script>
       <br>
       <br>
       <br>
