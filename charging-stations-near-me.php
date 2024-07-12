@@ -201,6 +201,7 @@
     <script src="https://cdn.jsdelivr.net/npm/leaflet-simple-map-screenshoter@0.4.1/dist/leaflet-simple-map-screenshoter.min.js"></script>
     <script>
         // Initialize the map
+        
         var map = L.map('map').setView([37.0902, -95.7129], 4); // Centered on the US
 
         // Add a tile layer
@@ -230,6 +231,45 @@
         });
 
         map.addControl(new customControl());
+        var stations = [
+            {lat: 34.0522, lng: -118.2437, type: 'L2', connector: 'type1'}, // Los Angeles
+            {lat: 40.7128, lng: -74.0060, type: 'L1', connector: 'type2'}, // New York
+            {lat: 37.7749, lng: -122.4194, type: 'DC', connector: 'type1'} // San Francisco
+        ];
+
+        // Add markers to the map
+        stations.forEach(function(station) {
+            L.marker([station.lat, station.lng])
+                .addTo(map)
+                .bindPopup('Charger Type: ' + station.type + '<br>Connector: ' + station.connector);
+        });
+
+        // Filter functionality
+        document.getElementById('charger-type').addEventListener('change', function() {
+            var type = this.value;
+            filterMarkers(type, 'type');
+        });
+
+        document.getElementById('connector').addEventListener('change', function() {
+            var connector = this.value;
+            filterMarkers(connector, 'connector');
+        });
+
+        function filterMarkers(value, key) {
+            map.eachLayer(function(layer) {
+                if (layer instanceof L.Marker) {
+                    map.removeLayer(layer);
+                }
+            });
+
+            stations.filter(function(station) {
+                return station[key] === value || value === '';
+            }).forEach(function(station) {
+                L.marker([station.lat, station.lng])
+                    .addTo(map)
+                    .bindPopup('Charger Type: ' + station.type + '<br>Connector: ' + station.connector);
+            });
+        }
 
         var locateControl = L.Control.extend({
             options: {
@@ -251,6 +291,7 @@
                 return container;
             }
         });
+ 
 
         map.addControl(new locateControl());
 
@@ -266,15 +307,15 @@
                 container.style.height = '30px';
                 container.style.marginTop = '5px';
 
-                container.innerHTML = '<img src="images/download.png" alt="Download">';
-                container.onclick = function(){
-                    mapScreenshoter.takeScreen('blob').then(blob => {
-                        var a = document.createElement('a');
-                        a.href = URL.createObjectURL(blob);
-                        a.download = 'map.png';
-                        a.click();
-                    });
-                };
+                var mapScreenshoter = L.simpleMapScreenshoter().addTo(map);
+        document.getElementById('download').addEventListener('click', function() {
+            mapScreenshoter.takeScreen('blob').then(blob => {
+                var a = document.createElement('a');
+                a.href = URL.createObjectURL(blob);
+                a.download = 'map.png';
+                a.click();
+            });
+        });
 
                 return container;
             }
