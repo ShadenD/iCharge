@@ -2744,3 +2744,24 @@ margin-left: 150px;
     background-color: #007bff;
     color: #fff;
 }
+/* ______________________________________________________________________________________________ */
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f4ff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.controls input,
+.controls select {
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+#map {
+    height: 90vh;
+    width: 100%;
+}

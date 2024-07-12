@@ -118,7 +118,7 @@
             <p style="text-align: left;">______________________</p>
 
      <div>
-    <a href="#EV Chargers" style="text-align: left;">EV Charging Stations Near Me</a>
+    <a href="charging-stations-near-me.php" style="text-align: left;">EV Charging Stations Near Me</a>
     <a href="EV Accessories.php" style="text-align: left;">Tesla Superchargers Near Me</a>
     <a href="White Lable Chargers.php" style="text-align: left;">EV Charging Stations Near Me in Canada</a>
   </div>          
