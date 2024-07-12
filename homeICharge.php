@@ -36,11 +36,11 @@
      <div>
     <a href="automaker.php" data-i18n="5">Automaker</a>
     <a href="cities and goverment.php" data-i18n="6">Cities and Governments</a>
-    <a href="White Lable Chargers.php" data-i18n="7">Entertainment</a>
-    <a href="software.php" data-i18n="8">Fuel Retailers</a>
+    <a href="Entertainment.php" data-i18n="7">Entertainment</a>
+    <a href="Residential.php" data-i18n="8">Fuel Retailers</a>
     <a href="#EV Chargers" data-i18n="9">Healthcare</a>
     <a href="EV Accessories.php" data-i18n="10">Parking Lots</a>
-    <a href="White Lable Chargers.php" data-i18n="11">Residential</a>
+    <a href="Residential.php" data-i18n="11">Residential</a>
     <a href="software.php" data-i18n="12">Street Power Poles</a>
   </div>
   <div >
@@ -102,7 +102,7 @@
     <a href="White Lable Chargers.php">Partner Program</a>
     <a href="software.php">Certifications</a>
     <a href="EV Accessories.php">Customer Story</a>
-    <a href="White Lable Chargers.php">Gallery</a>
+    <a href="Gallery.php">Gallery</a>
   </div>
 </div>
 <!-- _____________________________________________________________________ -->

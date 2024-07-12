@@ -6,6 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css-iCharge.css">
+    <script src="language.js" type="module"></script>
+
 </head>
 <body>
 <header style="display: flex;width: 100%;background-color: #1e0b6f;position: fixed;"> 
@@ -155,15 +157,15 @@
         <!-- div for categories -->
     </div>
     </header>
-    <div style="background-image: url('images/background.jpg');background-repeat: no-repeat;height:500px;background-size: 110%;margin-top: 80px;width: 110%;">
+    <div style="background-image: url('images/background.jpg');background-repeat: no-repeat;height:550px;background-size: 110%;margin-top: 80px;width: 110%;">
         <br> <br> <br> <br> <br> 
   <center>
-    <img src="images/automaker_3_85f50bb18b.png" style="width:50px;height:60px;margin-right:150px">
+    <img src="images/entertainment_3_d123c6fd06.png" style="width:50px;height:60px;margin-right:150px">
     <br><br><br><br>
-    <h1 style="font-size:50px;font-weight: bold;color:white;margin-right:150px;">EV Charging for Automakers</h1>
+    <h1 style="font-size:50px;font-weight: bold;color:white;margin-right:150px;">EV Charging for Entertainment<br> Venues</h1>
     <br> <br> <br>
     <div style="margin-right:150px;">
-      <a href="#footer"><button class="btn btn-primary">Contact an Expert</button></a>
+      <a href="#footer"><button class="btn btn-primary" data-i18n="contact">Contact an Expert</button></a>
     </div>
   </center>
     </div>
@@ -173,17 +175,21 @@
     <center>
     <div style="display:flex; width:100%;height:auto;">
         <div style="width: 50%;margin-top:120px;margin-left:120px">
-        <h1 style="font-size:35px;color:black;font-weight: bold;text-align: left;">Increase EV Sales Easily With Our<br> Easy-To-Use Chargers</h1>
-        <p style="color:grey;text-align: left;">As EVs rapidly sweep the automotive industry, in addition to<br> manufacturing EVs, automakers also need to provide efficient and hassle-<br>free charging experiences for their customers. Here at Electrly, we offer<br> charging solutions from design to manufacturing, helping automakers<br> attract new clients, increase EV sales, and extend their business to chargers.</p>
+        <h1 style="font-size:35px;color:black;font-weight: bold;text-align: left;" data-i18n="30">Create a Green Community With Our<br> Highly Efficient EV Charger</h1>
+        <p style="color:grey;text-align: left;" data-i18n="31">As EVs rapidly sweep the automotive industry,<br> in addition to
+manufacturing EVs, automakers also need to provide efficient<br> and hassle-
+free charging<br> experiences for their customers. Here at Electrly, we offer
+charging solutions from design to manufacturing, helping automakers
+attract new clients, increase EV sales,<br> and extend their business to chargers.</p>
         </div>
-        <img src="images/automaker_2_c931323fd822.png">
+        <img src="images/entertainment_2_7c017a5815.png" style="margin-left: 20px;">
     </div>
     </center>
 
     <br><br><br><br>
     <br><br><br><br>
     <section class="benefit-section21">
-        <h1>Win-Win: How We Benefit Both Your Business and Your Customers</h1>
+        <h1>Level Up Your Entertainment Businesses With Our Services</h1>
         <div class="benefit-cards21">
             <div class="benefit-card21">
                 <h2 style="text-align: left;">Increase Your EV Sales Without Hassles</h2>
@@ -320,11 +326,14 @@
                     </div>
                     </div>
                 </ul>
+                <div style="display:flex;gap:20px">
+                <button>View More Detailes</button>
                 <button>Contact an Expert</button>
+                </div>
             </div>
         </div>
     </section>
-
+<!-- _______________________________________________________________ -->
     <br><br><br><br>
     <br><br><br><br>
     <div class="container222">
@@ -337,6 +346,60 @@
             <img src="images/customizable (1).png" alt="EV Charger">
         </div>
     </div>
+    <br><br><br><br>
+    <br><br><br><br>
+    <div class="container333">
+        <h1>All-Round Charging Management Solution</h1>
+        <div class="tabs333">
+            <div class="tab333 active333" onclick="showTab(0)">Remote Management</div>
+            <div class="tab333" onclick="showTab(1)">Load Balancing</div>
+            <div class="tab333" onclick="showTab(2)">Easy Payment Settings</div>
+            <div class="tab333" onclick="showTab(3)">Comprehensive Charging Report</div>
+        </div>
+        <div class="content333 active333" id="content-0">
+            <p>Our smart management system allows you to monitor each charging event and manage all the chargers in a specific station in your city with a few clicks in front of the screen.</p>
+        </div>
+        <div class="content333" id="content-1">
+            <p>Load balancing ensures optimal energy distribution, preventing overload and reducing costs.</p>
+        </div>
+        <div class="content333" id="content-2">
+            <p>Easy payment settings provide a hassle-free experience for users, ensuring quick and secure transactions.</p>
+        </div>
+        <div class="content333" id="content-3">
+            <p>Comprehensive charging reports give detailed insights into usage patterns and efficiency.</p>
+        </div>
+        <div class="image-container333">
+            <button class="arrow333 left333" onclick="prevImage()">&#9664;</button>
+            <img src="image.png" alt="Management System" id="carousel-image">
+            <button class="arrow333 right333" onclick="nextImage()">&#9654;</button>
+        </div>
+    </div>
+    <script>
+        let currentTab = 0;
+        const tabs = document.querySelectorAll('.tab333');
+        const contents = document.querySelectorAll('.content333');
+        const images = ['images/payment.png', 'images/remote-network.png', 'images/reports.png', 'images/smart-charge.png'];
+
+        function showTab(index) {
+            tabs[currentTab].classList.remove('active333');
+            contents[currentTab].classList.remove('active333');
+            currentTab = index;
+            tabs[currentTab].classList.add('active333');
+            contents[currentTab].classList.add('active333');
+            document.getElementById('carousel-image').src = images[currentTab];
+        }
+
+        function prevImage() {
+            let newTab = (currentTab > 0) ? currentTab - 1 : images.length - 1;
+            showTab(newTab);
+        }
+
+        function nextImage() {
+            let newTab = (currentTab < images.length - 1) ? currentTab + 1 : 0;
+            showTab(newTab);
+        }
+    </script>
+    <!-- ___________________________________________________________________________________________ -->
     <br><br><br><br>
     <br><br><br><br>
     <div class="container121">
@@ -443,15 +506,191 @@
         }
     </script>
     
+    <br><br><br><br><br>
+    <br><br><br><br><br>
 
-        
-        <br>   <br>   <br>   <br>   <br>   <br>   <br>   <br>
-        <!-- ____________________________________________________________________________________ -->
-         <center><div style="background-color: white;border-radius: 30px;width: 80%;height: 600px;"><br>
-            <div style="margin-top: 40px;"><h1 style="font-size: 40px;">We're Compatible With All Major EV Brands</h1></div><br><br><br><br><br>
-            <img src="images/car types.png" alt="Italian Trulli">
-        
-        </div></center>
+    <div class="container343">
+        <div class="title343">Why Choose Electrly?</div>
+        <div class="grid343">
+            <div class="grid-item343">
+                <h3>In-house Manufacturing</h3>
+                <p>Manufactured with the highest quality in our factory - all EV chargers.</p>
+            </div>
+            <div class="grid-item343">
+                <h3>One Unit MOQ Policy</h3>
+                <p>Test and validate your business idea with 1 piece of order.</p>
+            </div>
+            <div class="grid-item343">
+                <h3>Factory Direct Prices</h3>
+                <p>Take advantage of our low prices without any middlemen.</p>
+            </div>
+            <div class="grid-item343">
+                <h3>Wholesale Discounts</h3>
+                <p>Buy in bulk and get a great discount with Electrly.</p>
+            </div>
+            <div class="grid-item343">
+                <h3>Warranty</h3>
+                <p>Enjoy peace of mind with a 2-year warranty.</p>
+            </div>
+            <div class="grid-item343">
+                <h3>After-sales Support</h3>
+                <p>Contact our after-sales support team whenever you need.</p>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <div class="container131">
+        <div class="image-container131">
+            <img src="images/how-our-services.jpg" alt="Service Image">
+        </div>
+        <div class="text-container131">
+            <div class="title131">How Our Services Work</div>
+            <div class="subtitle131">Simply tell us what you need and we give you a customized, perfect solution.</div>
+            <div class="container211">
+        <div class="step211">
+            <h2>Tell Us What You Want</h2>
+            <p>Get in touch with us and let us know your EV charging requirements.</p>
+        </div>
+        <div class="step211">
+            <h2>Get a Customized Solution</h2>
+            <p>Our professional team will collaborate with you to create a tailored solution that caters to your needs.</p>
+        </div>
+        <div class="step211">
+            <h2>Receive a Free Quote</h2>
+            <p>If everything meets your satisfaction, we'll give you a free quote with product and service details.</p>
+        </div>
+        <div class="step211">
+            <h2>Place Your Order</h2>
+            <p>If the offer sounds good to you, you can place your order and make the payment.</p>
+        </div>
+        <div class="step211">
+            <h2>Expect Fast Delivery</h2>
+            <p>When everything is set up, we'll schedule the production immediately and get your order delivered as quickly as possible.</p>
+        </div>
+    </div>
+            <div class="button-container131">
+                <a href="#" class="button131">Get a Free Quote</a>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <div class="container89">
+        <div class="text-section89">
+            <h2>The Ready-to-go<br> Charging Solutions<br> Loaded With Business<br> Potential</h2>
+        </div>
+        <div class="table-section89">
+            <table>
+                <tr>
+                    <td><img src="images/parking.png" alt="Parking with charging icon">Parking with charging</td>
+                    <td>Provide add-on services</td>
+                </tr>
+                <tr>
+                    <td><img src="images/inc.png" alt="Increase visibility icon">Increase visibility</td>
+                    <td>Make your business stand out</td>
+                </tr>
+                <tr>
+                    <td><img src="images/profit.png" alt="Earn passive profits icon">Earn passive profits</td>
+                    <td>Generate additional revenue</td>
+                </tr>
+                <tr>
+                    <td><img src="images/earth.png" alt="Support green business icon">Support green business</td>
+                    <td>Reach your sustainability goal</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+
+<div class="faqs-container">
+       <center><h2 style="font-size: 40px;margin-bottom: 40px;">FAQs</h2></center>
+  
+        <div class="questions-container">
+          <div class="content-container">
+            <div class="faq-header">
+              <h3>How can I order these accessories for my chargers?
+            </h3>
+              <span class="open active">+</span>
+              <span class="close">-</span>
+            </div>
+  
+            <div class="content">
+              <p>
+                Just contact our sales team and tell us what you need. We will respond to your request promptly with a right solution for you. Once you're okay with the offer and place the order, we will deliver the accessories as soon as possible.
+              </p>
+            </div>
+          </div>
+  
+          <div class="content-container">
+            <div class="faq-header">
+              <h3>Can I customize the holders for my needs?</h3>
+              <span class="open active">+</span>
+              <span class="close">-</span>
+            </div>
+  
+            <div class="content">
+              <p>
+                If you have any customization requirements for our products, let us know them in detail when you contact us. We'll offer a solution suitable for your needs.
+              </p>
+            </div>
+          </div>
+  
+          <div class="content-container">
+            <div class="faq-header">
+              <h3>What if I can't find the accessories I need?</h3>
+              <span class="open active">+</span>
+              <span class="close">-</span>
+            </div>
+  
+            <div class="content">
+              <p>
+                If you don't see what you need, simply send a message to us and our team of experts will help you search for the perfect charging accessory for your requirements.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <br> <br> <br> <br>
+    <br> <br> <br> <br>
+    <br> <br> <br> <br>
+
+    <div class="container">
+        <div class="text-container">
+            <h1>Looking to Order Accessories? Get in Touch Now!</h1>
+        </div>
+        <div class="form-container">
+            <form action="send_email.php" method="post">
+                <div class="form-group">
+                    <input type="text" placeholder="First Name*" name="FirstName" required>
+                    <input type="text" placeholder="Last Name*" name="LastName" required>
+                </div>
+                <div class="form-group">
+                    <select name="country" >
+                        <option value="" disabled selected>Country*</option>
+                        <!-- Add country options here -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email*" name="email" required>
+                    <input type="tel" placeholder="Phone*" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="WhatsApp" name="WhatsApp">
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Enter Your Message*" name="message" required></textarea>
+                </div>
+                <button type="submit" name="submit" onclick="falt()">Send Message</button>
+                            <!-- <h4><?php echo $alert; ?></h4> -->
+
+            </form>
+        </div>
+    </div>
+  
+    <br><br><br><br><br>
       <br>
       <br>
       <br>

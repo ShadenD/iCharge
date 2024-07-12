@@ -505,15 +505,166 @@ attract new clients, increase EV sales,<br> and extend their business to charger
             }
         }
     </script>
+    
+    <br><br><br><br><br>
+    <br><br><br><br><br>
 
-        
-        <br>   <br>   <br>   <br>   <br>   <br>   <br>   <br>
-        <!-- ____________________________________________________________________________________ -->
-         <center><div style="background-color: white;border-radius: 30px;width: 80%;height: 600px;"><br>
-            <div style="margin-top: 40px;"><h1 style="font-size: 40px;">We're Compatible With All Major EV Brands</h1></div><br><br><br><br><br>
-            <img src="images/car types.png" alt="Italian Trulli">
-        
-        </div></center>
+    <div class="container343">
+        <div class="title343">Why Going Electric With Electrly?</div>
+        <div class="grid343">
+            <div class="grid-item343">
+                <h3>In-house Manufacturing</h3>
+                <p>Manufactured with the highest quality in our factory - all EV chargers.</p>
+            </div>
+            <div class="grid-item343">
+                <h3>One Unit MOQ Policy</h3>
+                <p>Test and validate your business idea with 1 piece of order.</p>
+            </div>
+            <div class="grid-item343">
+                <h3>Factory Direct Prices</h3>
+                <p>Take advantage of our low prices without any middlemen.</p>
+            </div>
+            <div class="grid-item343">
+                <h3>Wholesale Discounts</h3>
+                <p>Buy in bulk and get a great discount with Electrly.</p>
+            </div>
+            <div class="grid-item343">
+                <h3>Warranty</h3>
+                <p>Enjoy peace of mind with a 2-year warranty.</p>
+            </div>
+            <div class="grid-item343">
+                <h3>After-sales Support</h3>
+                <p>Contact our after-sales support team whenever you need.</p>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <div class="container131">
+        <div class="image-container131">
+            <img src="images/how-our-services.jpg" alt="Service Image">
+        </div>
+        <div class="text-container131">
+            <div class="title131">How Our Services Work</div>
+            <div class="subtitle131">Simply tell us what you need and we give you a customized, perfect solution.</div>
+            <div class="container211">
+        <div class="step211">
+            <h2>Tell Us What You Want</h2>
+            <p>Get in touch with us and let us know your EV charging requirements.</p>
+        </div>
+        <div class="step211">
+            <h2>Get a Customized Solution</h2>
+            <p>Our professional team will collaborate with you to create a tailored solution that caters to your needs.</p>
+        </div>
+        <div class="step211">
+            <h2>Receive a Free Quote</h2>
+            <p>If everything meets your satisfaction, we'll give you a free quote with product and service details.</p>
+        </div>
+        <div class="step211">
+            <h2>Place Your Order</h2>
+            <p>If the offer sounds good to you, you can place your order and make the payment.</p>
+        </div>
+        <div class="step211">
+            <h2>Expect Fast Delivery</h2>
+            <p>When everything is set up, we'll schedule the production immediately and get your order delivered as quickly as possible.</p>
+        </div>
+    </div>
+            <div class="button-container131">
+                <a href="#" class="button131">Get a Free Quote</a>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+
+
+
+<div class="faqs-container">
+       <center><h2 style="font-size: 40px;margin-bottom: 40px;">FAQs</h2></center>
+  
+        <div class="questions-container">
+          <div class="content-container">
+            <div class="faq-header">
+              <h3>How can I order these accessories for my chargers?
+            </h3>
+              <span class="open active">+</span>
+              <span class="close">-</span>
+            </div>
+  
+            <div class="content">
+              <p>
+                Just contact our sales team and tell us what you need. We will respond to your request promptly with a right solution for you. Once you're okay with the offer and place the order, we will deliver the accessories as soon as possible.
+              </p>
+            </div>
+          </div>
+  
+          <div class="content-container">
+            <div class="faq-header">
+              <h3>Can I customize the holders for my needs?</h3>
+              <span class="open active">+</span>
+              <span class="close">-</span>
+            </div>
+  
+            <div class="content">
+              <p>
+                If you have any customization requirements for our products, let us know them in detail when you contact us. We'll offer a solution suitable for your needs.
+              </p>
+            </div>
+          </div>
+  
+          <div class="content-container">
+            <div class="faq-header">
+              <h3>What if I can't find the accessories I need?</h3>
+              <span class="open active">+</span>
+              <span class="close">-</span>
+            </div>
+  
+            <div class="content">
+              <p>
+                If you don't see what you need, simply send a message to us and our team of experts will help you search for the perfect charging accessory for your requirements.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <br> <br> <br> <br>
+    <br> <br> <br> <br>
+    <br> <br> <br> <br>
+
+    <div class="container">
+        <div class="text-container">
+            <h1>Looking to Order Accessories? Get in Touch Now!</h1>
+        </div>
+        <div class="form-container">
+            <form action="send_email.php" method="post">
+                <div class="form-group">
+                    <input type="text" placeholder="First Name*" name="FirstName" required>
+                    <input type="text" placeholder="Last Name*" name="LastName" required>
+                </div>
+                <div class="form-group">
+                    <select name="country" >
+                        <option value="" disabled selected>Country*</option>
+                        <!-- Add country options here -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email*" name="email" required>
+                    <input type="tel" placeholder="Phone*" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="WhatsApp" name="WhatsApp">
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Enter Your Message*" name="message" required></textarea>
+                </div>
+                <button type="submit" name="submit" onclick="falt()">Send Message</button>
+                            <!-- <h4><?php echo $alert; ?></h4> -->
+
+            </form>
+        </div>
+    </div>
+  
+    <br><br><br><br><br>
       <br>
       <br>
       <br>
