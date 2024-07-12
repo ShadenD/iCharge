@@ -2765,3 +2765,22 @@ margin-left: 150px;
     height: 90vh;
     width: 100%;
 }
+.map-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.map-buttons button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.map-buttons button:hover {
+    background-color: #f0f0f0;
+}

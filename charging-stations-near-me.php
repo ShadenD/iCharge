@@ -163,6 +163,9 @@
     </div>
     </header>
     <br><br><br> <br><br><br> <br><br><br>
+
+    <center><h1 style="font-size: 40px;">EV Charging Stations Near Me</h1></center>
+    <br><br><br>
 <div class="controls">
         <input type="text" id="search" placeholder="Enter a station name, street, city or ZIP">
         <select id="charger-type">
@@ -195,6 +198,7 @@
     </div>
     <div id="map"></div>
 
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-simple-map-screenshoter@0.4.1/dist/leaflet-simple-map-screenshoter.min.js"></script>
     <script>
         // Initialize the map
         var map = L.map('map').setView([37.0902, -95.7129], 4); // Centered on the US
@@ -204,47 +208,135 @@
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
 
-        // Sample data for markers
-        var stations = [
-            {lat: 34.0522, lng: -118.2437, type: 'L2', connector: 'type1'}, // Los Angeles
-            {lat: 40.7128, lng: -74.0060, type: 'L1', connector: 'type2'}, // New York
-            {lat: 37.7749, lng: -122.4194, type: 'DC', connector: 'type1'} // San Francisco
-        ];
+        // Add custom controls to the map
+        var customControl = L.Control.extend({
+            options: {
+                position: 'topright'
+            },
+            onAdd: function (map) {
+                var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
 
-        // Add markers to the map
-        stations.forEach(function(station) {
-            L.marker([station.lat, station.lng])
-                .addTo(map)
-                .bindPopup('Charger Type: ' + station.type + '<br>Connector: ' + station.connector);
+                container.style.backgroundColor = 'white';
+                container.style.width = '30px';
+                container.style.height = '30px';
+
+                container.innerHTML = '<img src="images/help.png" alt="Help">';
+                container.onclick = function(){
+                    alert('Help clicked');
+                };
+
+                return container;
+            }
         });
 
-        // Filter functionality
-        document.getElementById('charger-type').addEventListener('change', function() {
-            var type = this.value;
-            filterMarkers(type, 'type');
+        map.addControl(new customControl());
+
+        var locateControl = L.Control.extend({
+            options: {
+                position: 'topright'
+            },
+            onAdd: function (map) {
+                var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
+
+                container.style.backgroundColor = 'white';
+                container.style.width = '30px';
+                container.style.height = '30px';
+                container.style.marginTop = '5px';
+
+                container.innerHTML = '<img src="images/location.png" alt="Locate">';
+                container.onclick = function(){
+                    map.locate({setView: true, maxZoom: 16});
+                };
+
+                return container;
+            }
         });
 
-        document.getElementById('connector').addEventListener('change', function() {
-            var connector = this.value;
-            filterMarkers(connector, 'connector');
+        map.addControl(new locateControl());
+
+        var downloadControl = L.Control.extend({
+            options: {
+                position: 'topright'
+            },
+            onAdd: function (map) {
+                var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
+
+                container.style.backgroundColor = 'white';
+                container.style.width = '30px';
+                container.style.height = '30px';
+                container.style.marginTop = '5px';
+
+                container.innerHTML = '<img src="images/download.png" alt="Download">';
+                container.onclick = function(){
+                    mapScreenshoter.takeScreen('blob').then(blob => {
+                        var a = document.createElement('a');
+                        a.href = URL.createObjectURL(blob);
+                        a.download = 'map.png';
+                        a.click();
+                    });
+                };
+
+                return container;
+            }
         });
 
-        function filterMarkers(value, key) {
-            map.eachLayer(function(layer) {
-                if (layer instanceof L.Marker) {
-                    map.removeLayer(layer);
-                }
-            });
+        map.addControl(new downloadControl());
 
-            stations.filter(function(station) {
-                return station[key] === value || value === '';
-            }).forEach(function(station) {
-                L.marker([station.lat, station.lng])
-                    .addTo(map)
-                    .bindPopup('Charger Type: ' + station.type + '<br>Connector: ' + station.connector);
-            });
-        }
-    </script>
-    
+        var zoomInControl = L.Control.extend({
+            options: {
+                position: 'topright'
+            },
+            onAdd: function (map) {
+                var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
+
+                container.style.backgroundColor = 'white';
+                container.style.width = '30px';
+                container.style.height = '30px';
+                container.style.marginTop = '5px';
+
+                container.innerHTML = '<img src="images/plus.png" alt="Zoom In">';
+                container.onclick = function(){
+                    map.zoomIn();
+                };
+
+                return container;
+            }
+        });
+
+        map.addControl(new zoomInControl());
+
+        var zoomOutControl = L.Control.extend({
+            options: {
+                position: 'topright'
+            },
+            onAdd: function (map) {
+                var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
+
+                container.style.backgroundColor = 'white';
+                container.style.width = '30px';
+                container.style.height = '30px';
+                container.style.marginTop = '5px';
+
+                container.innerHTML = '<img src="images/minus.png" alt="Zoom Out">';
+                container.onclick = function(){
+                    map.zoomOut();
+                };
+
+                return container;
+            }
+        });
+
+        map.addControl(new zoomOutControl());
+
+        // Locate user
+        map.on('locationfound', function(e) {
+            L.marker(e.latlng).addTo(map)
+                .bindPopup("You are here!").openPopup();
+        });
+
+        map.on('locationerror', function() {
+            alert("Location access denied.");
+        });
+    </script>
 </body>
 </html>
