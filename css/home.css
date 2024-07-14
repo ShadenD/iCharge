@@ -1,6 +1,268 @@
-.header{
+/* .header{
     display: flex;width: 100%;background-color: #1e0b6f;position: fixed;
+} */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #1e0b6f;
+    color: white;
+    text-align: center;
+    border: transparent;
+    padding: 1rem 0;
+    z-index: 1000; /* Ensures the header is on top of other elements */
 }
+
+main {
+    margin-top: 60px; /* This should be at least the height of the header */
+    padding: 1rem;
+}
+
+nav {
+    background-color: transparent;
+}
+.menu {
+    list-style: none;
+    margin-right: 40px;
+    margin-top: 10px;
+    padding: 0;
+    display: flex;
+}
+.menu-item {
+    position: relative;
+    padding: 15px 20px;
+    cursor: pointer;
+    color: white;
+    margin-right: 40px;
+}
+.menu-item a {
+    text-decoration: none;
+    display: block;
+}
+.menu-item:hover {
+    background-color: transparents;
+    color: black;
+    font-weight: bold;
+}
+
+.menu-item::after {
+    content: '\25BC';  /* Unicode for down arrow */
+    margin-left: 5px;
+    font-size: 14px;
+    vertical-align: middle;
+    transition: transform 0.2s;
+    
+}
+
+.menu-item:hover::after {
+    transform: rotate(180deg);
+    content: '\25B2';  /* Unicode for up arrow */
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    list-style: none;
+    margin-right: 120px;
+    padding: 0;
+    z-index: 1000;
+    width: 400px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.dropdown li a {
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: flex;
+}
+
+.dropdown li a:hover {
+    background-color: #ddd;
+}
+
+.menu-item:hover .dropdown {
+    display: block;
+}
+.dropdown-column {
+    flex: 1;
+    display: none;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.dropdown-column h3 {
+    margin-top: 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.dropdown-column ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+
+}
+
+.dropdown-column ul li {
+    margin: 5px 0;
+    text-align: center;
+
+}
+
+.dropdown-column ul li a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.dropdown-column ul li a:hover {
+    background-color: #eee;
+}
+
+.button-container {
+            display: flex;
+            gap: 15px; 
+            margin-left: 70px;
+            margin-top: 40px;
+        }
+        .btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            height: 50px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(90deg, transparent, transparent);
+            transition: background 0.4s;
+        }
+        .btn-primary {
+            color: white;
+            background-color: #007bff;
+        }
+        .btn-primary::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            color: white;
+            background-color: rgba(3, 57, 114, 0.1);;
+            transition: left 0.4s;
+            z-index: 0;
+        }
+        .btn-primary:hover::before {
+            left: 0;
+        }
+        .btn-outline {
+            color: white;
+            background-color: transparent;
+            border: 2px solid white;
+        }
+        .btn-outline::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            color: white;
+            background-color: rgba(3, 58, 116, 0.1);
+            transition: left 0.4s;
+            z-index: 0;
+        }
+        .btn-outline:hover::before {
+            left: 0;
+            color: white;
+        }
+        .btn, .btn::before {
+            z-index: 1;
+        }
+        .btn-primary:hover, .btn-outline:hover {
+            color: inherit; /* Ensure text color remains the same */
+        }
+
+        .button-container1 {
+            display: flex;
+            gap: 5px; 
+            margin-top: 10px;
+            margin-left: 50px;
+
+        }
+        .btn1 {
+            padding: 10px 20px;
+            font-size: 12px;
+            height: 40px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(90deg, transparent, transparent);
+            transition: background 0.4s;
+        }
+        .btn-primary1 {
+            color: white;
+            background-color: #007bff;
+            font-size: 10px;
+        }
+        .btn-primary1::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            color: white;
+            background-color: rgba(3, 57, 114, 0.1);
+            transition: left 0.4s;
+            z-index: 0;
+        }
+        .btn-primary1:hover::before {
+            left: 0;
+        }
+        .btn-outline1 {
+            color: white;
+            background-color: transparent;
+            border: 2px solid white;
+        }
+        .btn-outline1::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            color: white;
+            background-color:  rgba(3, 57, 114, 0.1);
+            transition: left 0.4s;
+            z-index: 0;
+        }
+        .btn-outline1:hover::before {
+            left: 0;
+            color: white;
+        }
+        .btn1, .btn1::before {
+            z-index: 1;
+        }
+        .btn-primary1:hover, .btn-outline1:hover {
+            color: white; /* Ensure text color remains the same */
+        }
 .img1{
     width: 14%;height: 50%;margin-left: 100px;margin-top: 10px;margin-right: 120px;
 }
@@ -124,6 +386,12 @@
 }
 .same p{
     font-size: 14px;color: rgb(113, 111, 111);font-weight: bold;
+}
+.con14{
+    background-color: white;border-radius: 30px;width: 80%;height: 600px;
+}
+.con15{
+    margin-top: 40px;
 }
  
 .container55 {
@@ -744,6 +1012,66 @@ footer {
 .p11{
     color: white; font-size: 21px;margin-left: 80px; margin-top: 100px;
 }
+.faqs-container {
+    font-family: "Roboto", sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .faqs-container .questions-container {
+    box-shadow: 0 4px 8px -3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .faqs-container h2 {
+    padding: 4px 32px;
+    font-size: 28px;
+  }
+  
+  .faqs-container .faq-header {
+    display: flex;
+    background: transparent;
+    color: black;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 40px;
+  }
+  
+  .faqs-container .faq-header .open,
+  .faqs-container .faq-header .close {
+    position: absolute;
+    right: 0;
+    padding: 0 32px;
+    font-size: 22px;
+    font-weight: bold;
+    transform: translateY(-8px);
+    opacity: 0;
+    transition: all 500ms;
+  }
+  
+  .faqs-container .faq-header .open.active,
+  .faqs-container .faq-header .close.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .faqs-container .faq-header h3 {
+    font-size: 20px;
+    padding: 0 32px;
+  }
+  
+  .faqs-container .content {
+    padding: 0 32px;
+    background: #fdfffc;
+    line-height: 2;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 500ms;
+  }
+  
+  .faqs-container .content.active {
+    max-height: 600px;
+  }
 
 
 

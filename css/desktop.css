@@ -1,4 +1,4 @@
-
+@media (min-width: 1024px) {
 html{
     scroll-behavior: smooth;
 }
@@ -8,13 +8,22 @@ body {
     direction: ltr;
 }
 .container1 {
-    width: 100%; /* Full width parent container */
-    overflow: hidden; /* Hide overflow */
+    width: 100%; 
+    overflow: hidden; 
     position: relative;
   }
+  .header1{
+    display: flex;width: 100%;background-color: #1e0b6f;position: fixed;margin-right: 30px;
+}
+.h11{
+    color: white; font-size: 50px; font-weight: bold; margin-left: 90px; margin-top: 40px;
+  }
+.p11{
+    color: white; font-size: 21px;margin-left: 80px; margin-top: 100px;
+}
   
   .image-div {
-    background-image: url('images/car-iCharge.jpg');
+    
     background-repeat: no-repeat;
     border-radius: 30px;
     width: 100%;
@@ -33,6 +42,52 @@ header {
     padding: 1rem 0;
     z-index: 1000; /* Ensures the header is on top of other elements */
 }
+.img1{
+    width: 50%;height: 50%;margin-left: 100px;margin-top: 15px;margin-right: 120px;
+}
+.con1{
+    display: flex;
+}
+.con1 h1{
+    color: rgb(0, 0, 0); text-decoration: none; display: block;font-size: 14px;margin-right: 60px;text-align: left;
+}
+.con1 p{
+    text-align: left;
+}
+.con2{
+    display: flex;
+}
+.con3{
+    margin-left: 40px;
+}
+.con3 h1{
+    color: rgb(0, 0, 0); text-decoration: none; display: block;font-size: 14px;margin-right: 60px;text-align: left;
+}
+.con3 p{
+    text-align: left;
+}
+.con4{
+    margin-left: 10px;
+}
+.con4 h1{
+    color: rgb(0, 0, 0); text-decoration: none; display: block;font-size: 14px;margin-right: 60px;text-align: left;
+}
+.con4 p{
+    text-align: left;
+}
+.left{
+    text-align: left;
+}
+.con5{
+    margin-left: 10px;
+}
+.select{
+    background-color:transparent;border:none;color:white;border-radius: 50px;font-size: 12px;margin-left:140px;
+}
+.lang{
+    color:black;
+}
+
 
 main {
     margin-top: 60px; /* This should be at least the height of the header */
@@ -284,9 +339,9 @@ nav {
             color: white; /* Ensure text color remains the same */
         }
 
-/* 
+
   
-footer {
+.footer1 {
     background-image: url('images/background.jpg');background-repeat: no-repeat;height:600px;background-size: 110%;
     color: #fff;
     padding: 20px 0;
@@ -413,7 +468,7 @@ footer {
     margin-left: 320px;
     
 
-} */
+}
 
 .learn::before{
     content: "";
@@ -560,6 +615,73 @@ footer {
     font-weight: bold;
     background-color: white;
   }
+  .card-header h1{
+    font-size: 16px;
+  }
+  .con11{
+    display: flex; margin-bottom: 10px;
+  }
+.con11 button{
+    border: 2px solid grey;color: grey; margin-right: 10px;
+}
+.con12{
+    display: flex;
+}
+.con12 button{
+    border: 2px solid #007bff;color:#007bff ;
+}
+.con13{
+    display: flex;
+}
+.con13 button{
+    border: 2px solid #007bff;color:#007bff ;
+}
+.same{
+    display: flex;
+}
+.same i{
+   margin-top: 15px;margin-right: 10px; color: blue;
+
+}
+.same p{
+    font-size: 14px;color: rgb(113, 111, 111);font-weight: bold;
+}
+.con14{
+    background-color: white;border-radius: 30px;width: 80%;height: 600px;margin-right: 90px;
+}
+.con15{
+    margin-top: 40px;
+}
+.con7{
+    margin-top: 70px;
+    
+  }
+  .con7{
+    font-weight: bold;font-size: 40px;color: black;
+  }
+  .con8 h1{
+    font-weight: bold;font-size: 30px;color: navy;
+  }
+  .divv{
+    margin-left: 280px;color: white;font-size: 18px;
+  }
+  .divv1{
+    margin-left: 280px;color: white;font-size: 14px;
+  }
+  .h611{
+    font-size: 50px;font-weight: bold;
+  }
+  .con9{
+    width: 100%;
+  }
+  .con9 video{
+    width: 100%;
+  }
+  .con10{
+    display: flex;
+  }
+
+  
 
   .card-content {
     padding: 2px;
@@ -1753,7 +1875,9 @@ width: 150px;
     margin-bottom: 10px;
 }
 
-
+.con15 h1{
+    font-size: 40px;
+}
 
 
 
@@ -2959,6 +3083,202 @@ margin-left: 150px;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+}
+
+
+@media screen and (max-width: 1450px) {
+    .select {
+      margin-left: 70px;
+    }
+    .button-container1{
+        margin-right: 60px;
+    }
+
+  }
+  @media screen and (max-width: 1378px) {
+    .select {
+      margin-left: 0px;
+    }
+    .button-container1{
+        margin-right: 200px;
+    }
+
+  }
+  @media screen and (max-width: 1323px) {
+    .img1{
+        margin-right: 120px;
+        margin-left: 50px;
+    }
+    .select {
+      margin-left: 0px;
+    }
+    .button-container1{
+        margin-right: 200px;
+    }
+  .btn1  {
+    width: 150px;
+  }
+  .h61{
+    width: 100px;
+  }
+
+ @media screen and (max-width: 1323px) {
+    .img1{
+        margin-right: 120px;
+        margin-left: 50px;
+    }
+    .select {
+      margin-left: 0px;
+    }
+    .button-container1{
+        margin-right: 200px;
+    }
+  .btn1  {
+    width: 150px;
+  }
+  .h61{
+    width: 100px;
+  }
+  .card{
+    margin-left: 40px;
+ }
+ @media screen and (max-width: 1226px) {
+    .img1{
+        margin-right: 120px;
+        margin-left: 50px;
+    }
+    .select {
+      margin-left: 0px;
+    }
+    .button-container1{
+        margin-right: 200px;
+    }
+  .btn1  {
+    width: 150px;
+  }
+  .h61{
+    width: 100px;
+  }
+  .card{
+    margin-left: 40px;
+ }
+ .footer-bottom{
+ padding: 0px;
+ margin-bottom: 40px;
+    }
+
+.footer1{
+    padding: 0px;
+    height: 800px;
+}
+.contact-info, .social-media, .copyright, .quote{
+    margin: 0px;
+    padding: 0PX;
+}
+
+  }
+  @media screen and (max-width: 1155px) {
+  
+    .button-container1{
+        margin-right: 270px;
+        margin-left: 10px;
+    }
+  .btn1  {
+    width: 150px;
+  }
+ .container1{
+    margin-right: 300px;
+ }
+ .Explore1{
+    width: 30%;
+    margin-left: 400px;
+ }
+ .image-div{
+    margin-left: 70px;
+ }
+ .con7{
+    font-size: 30px;
+ }
+ .h61{
+    font-size: 40px;
+ }
+ .con15 h1{
+    font-size: 30px;
+}
+.con14 img{
+    width: 80%;height: 400px;margin-right: 50px;margin-left: 70px;
+}
 
 
 
+  }
+  @media screen and (max-width: 1108px) {
+  
+    .button-container1{
+        margin-right: 300px;
+        margin-left:7px;
+    }
+  .btn1  {
+    width: 120px;
+    font-size: 8px;
+    height: 30px;
+  }
+  .image-div{
+    margin-left: 70px;
+ }
+ .con7{
+    font-size: 30px;
+ }
+ .h61{
+    font-size: 30px;
+ }
+ .card{
+    margin-left: 20px;
+ }
+ .Explore1{
+    width: 30%;
+    margin-left: 400px;
+ }
+
+}
+@media screen and (max-width: 1000px) {
+  
+    .button-container1{
+        margin-right: 400px;
+        margin-left:0px;
+    }
+  .btn1  {
+    width: 100px;
+    font-size: 8px;
+    height: 30px;
+    align-items: left;
+  }
+  .image-div{
+    margin-left: 70px;
+ }
+ .con7{
+    font-size: 30px;
+ }
+ .h61{
+    font-size: 30px;
+ }
+ .card{
+    margin-left: 20px;
+ }
+ .Explore1{
+    width: 35%;
+    margin-left: 370px;
+ }
+
+}
+.con15 h1{
+    font-size: 30px;
+}
+.con14 img{
+    margin-right: 70px;
+}
+
+
+ }
+
+}

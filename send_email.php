@@ -1,5 +1,5 @@
 
-<link rel="stylesheet" href="alert.css">
+<!-- <link rel="stylesheet" href="alert.css"> -->
 <?php
 use PHPMailer\PHPMailer\PHPMailer;
 require_once 'phpMailer/Exception.php';
